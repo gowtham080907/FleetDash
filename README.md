@@ -54,60 +54,7 @@ FleetDash solves this with a Dual-Track Decoupled Architecture:
 +-------------------------------------------------------------------------------------------------+
 Key Engineering Innovations:
 Zero-Allocation Spatial Cache: Dynamic vehicle coordinates are buffered into a mutable Map<string, VehicleTelemetry> with pre-allocated Float64 arrays for coordinate transforms.
-Viewport Culling (Bounding Box Filter): Before rasterizing 10,000 markers, the engine filters coordinates against the Leaflet map's active pixel bounding box (
-[
-𝑥
-min
-⁡
-−
-pad
-,
-𝑦
-min
-⁡
-−
-pad
-,
-𝑥
-max
-⁡
-+
-pad
-,
-𝑦
-max
-⁡
-+
-pad
-]
-[x
-min
-	​
-
-−pad,y
-min
-	​
-
-−pad,x
-max
-	​
-
-+pad,y
-max
-	​
-
-+pad]). Units outside the viewport are culled in 
-𝑂
-(
-1
-)
-O(1) time, reducing rendering overhead by 
-75
-%
-−
-85
-%
-75%−85%.
+Viewport Culling (Bounding Box Filter): Before rasterizing 10,000 markers, the engine filters coordinates against the Leaflet map's active pixel bounding box 
 Hardware-Accelerated HTML5 Canvas Overlay: Replaces thousands of heavy Leaflet DOM nodes (divIcon) with a single HTML5 <canvas> layer synced to Leaflet's zoom, pan, and transform events.
 32-Byte Compact Binary Protocol: Custom Little-Endian binary packet decoder for extreme bandwidth optimization (
 6
