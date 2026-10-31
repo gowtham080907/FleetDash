@@ -15,43 +15,6 @@ An enterprise-grade, high-performance fleet monitoring command center engineered
 Standard React applications store dynamic state in useState or Redux/Zustand. Under high-frequency telemetry loads (1,500 – 10,000 packets per second), updating React state forces continuous component tree reconciliation, causing massive garbage collection pressure and frame drops down to single digits.
 
 FleetDash solves this with a Dual-Track Decoupled Architecture:
-
-+-------------------------------------------------------------------------------------------------+
-|                                 TELEMETRY INGESTION PIPELINE                                    |
-+-------------------------------------------------------------------------------------------------+
-|                                                                                                 |
-|   +-----------------------+           +-----------------------+                                 |
-|   |   Socket.IO Server    |           | Deterministic Engine  |                                 |
-|   |  (telemetry:batch)    |           |  (100 - 10,000 units) |                                 |
-|   +-----------+-----------+           +-----------+-----------+                                 |
-|               |                                   |                                             |
-|               +-----------------+-----------------+                                             |
-|                                 |                                                               |
-|                                 v                                                               |
-|                +---------------------------------+                                              |
-|                |    Transport & Boundary Check   |                                              |
-|                |  - Coordinate bounds [-90, 90]  |                                              |
-|                |  - 32-Byte Binary Decoder       |                                              |
-|                +----------------+----------------+                                              |
-|                                 |                                                               |
-|        +------------------------+------------------------+                                      |
-|        | (Raw High-Frequency Coords)                     | (Throttled 250ms Aggregates)         |
-|        v                                                 v                                      |
-|  +---------------------------+                 +---------------------+                          |
-|  | Non-Reactive Spatial Map  |                 | Zustand UI Store    |                          |
-|  |  `vehiclePositionStore`   |                 | (KPIs, Active/Idle, |                          |
-|  | (Zero Virtual DOM render) |                 |  Breach counts)     |                          |
-|  +-------------+-------------+                 +----------+----------+                          |
-|                |                                          |                                     |
-|                v                                          v                                     |
-|  +---------------------------+                 +---------------------+                          |
-|  |  HTML5 Canvas 60 FPS      |                 | React UI Components |                          |
-|  |  - Spatial Viewport Cull  |                 | - KPI Grid Cards    |                          |
-|  |  - Directional Chevrons   |                 | - Recharts Graphs   |                          |
-|  |  - Pulsating Breach Rings |                 | - Incident Logs     |                          |
-|  +---------------------------+                 +---------------------+                          |
-|                                                                                                 |
-+-------------------------------------------------------------------------------------------------+
 Key Engineering Innovations:
 Zero-Allocation Spatial Cache: Dynamic vehicle coordinates are buffered into a mutable Map<string, VehicleTelemetry> with pre-allocated Float64 arrays for coordinate transforms.
 Viewport Culling (Bounding Box Filter): Before rasterizing 10,000 markers, the engine filters coordinates against the Leaflet map's active pixel bounding box 
