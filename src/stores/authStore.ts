@@ -88,6 +88,49 @@ export const useAuthStore = create<AuthState>((set) => ({
     }
   },
 
+  registerUser: async (payload): Promise<boolean> => {
+    set({ isLoading: true, error: null });
+
+    try {
+      // Simulate network latency for authentic feel
+      await new Promise((res) => setTimeout(res, 600));
+
+      if (!payload.email || !payload.password || !payload.name) {
+        set({ isLoading: false, error: 'Full name, email and password are required' });
+        return false;
+      }
+
+      if (payload.password.length < 6) {
+        set({ isLoading: false, error: 'Password must be at least 6 characters' });
+        return false;
+      }
+
+      const user: User = {
+        id: `usr-${Date.now()}`,
+        name: payload.name.trim(),
+        email: payload.email.trim().toLowerCase(),
+        role: payload.role || 'fleet_manager',
+        department: 'Operations',
+        organization: payload.organization?.trim() || 'Global Fleet Logistics',
+      };
+
+      sessionStorage.setItem('fleetdash_auth_session', JSON.stringify({ user }));
+      set({
+        user,
+        isAuthenticated: true,
+        isLoading: false,
+        error: null,
+      });
+      return true;
+    } catch {
+      set({
+        isLoading: false,
+        error: 'Registration failed. Please try again.',
+      });
+      return false;
+    }
+  },
+
   logout: () => {
     sessionStorage.removeItem('fleetdash_auth_session');
     set({
