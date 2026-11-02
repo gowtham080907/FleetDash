@@ -15,6 +15,7 @@ import {
   Radio,
 } from 'lucide-react';
 import { useAuthStore } from '@/stores/authStore';
+import { Logo } from '@/components/ui/Logo';
 import { cn } from '@/utils/cn';
 
 interface SidebarProps {
@@ -61,20 +62,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
       {/* Brand Header */}
       <div>
         <div className="flex h-16 items-center justify-between px-4 border-b border-slate-800/80">
-          <div className="flex items-center gap-3 overflow-hidden">
-            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-brand-electric text-white shadow-md shadow-blue-500/20">
-              <Radio className="h-5 w-5 animate-pulse" />
-            </div>
-            {!isCollapsed && (
-              <div className="flex flex-col truncate">
-                <span className="text-sm font-bold tracking-tight text-white flex items-center gap-1.5">
-                  FLEET<span className="text-brand-electric">DASH</span>
-                </span>
-                <span className="text-[10px] text-slate-400 uppercase font-mono tracking-wider">
-                  Telemetry Engine
-                </span>
-              </div>
-            )}
+          <div className="flex items-center overflow-hidden">
+            <Logo
+              size="md"
+              showText={!isCollapsed}
+              showSubtitle={!isCollapsed}
+              subtitleText="Telemetry Engine"
+            />
           </div>
 
           {/* Desktop collapse toggle */}

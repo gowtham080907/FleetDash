@@ -30,6 +30,7 @@ import { useAuthStore } from '@/stores/authStore';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { useToastStore } from '@/stores/toastStore';
+import { Logo } from '@/components/ui/Logo';
 import { cn } from '@/utils/cn';
 
 const loginSchema = z.object({
