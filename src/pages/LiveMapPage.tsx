@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { CanvasFleetMap } from '@/components/map/CanvasFleetMap';
 import { useSimulatorStore } from '@/services/simulator/telemetrySimulator';
-import { positionStore } from '@/stores/vehiclePositionStore';
 import { Button } from '@/components/ui/Button';
 import { MapPin, Search, Play, Pause, ShieldAlert } from 'lucide-react';
 
 export const LiveMapPage: React.FC = () => {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const focusedVehicleId = searchParams.get('focus');
 
   const { isRunning, isPaused, start, pause, resume, triggerManualBreach, vehicleCount } =
@@ -16,11 +15,9 @@ export const LiveMapPage: React.FC = () => {
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim()) {
-      const v = positionStore.getPosition(searchQuery.trim().toUpperCase());
-      if (v) {
-        // Can be focused
-      }
+    const query = searchQuery.trim().toUpperCase();
+    if (query) {
+      setSearchParams({ focus: query });
     }
   };
 

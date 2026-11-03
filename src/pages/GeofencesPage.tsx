@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useAlertStore } from '@/stores/alertStore';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { useNavigate } from 'react-router-dom';
+import { CreateGeofenceModal } from '@/components/geofences/CreateGeofenceModal';
+import { useToastStore } from '@/stores/toastStore';
 import {
   ShieldAlert,
   MapPin,
@@ -11,11 +13,26 @@ import {
   Truck,
   AlertTriangle,
   ArrowRight,
+  Plus,
+  Trash2,
 } from 'lucide-react';
 
 export const GeofencesPage: React.FC = () => {
   const navigate = useNavigate();
-  const { geofences, toggleGeofenceVisibility } = useAlertStore();
+  const { geofences, toggleGeofenceVisibility, deleteGeofence } = useAlertStore();
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const { addToast } = useToastStore();
+
+  const handleDeleteZone = async (id: string, name: string) => {
+    if (window.confirm(`Are you sure you want to deactivate geofence perimeter "${name}"?`)) {
+      await deleteGeofence(id);
+      addToast({
+        type: 'info',
+        title: 'Geofence Deactivated',
+        message: `Perimeter "${name}" was removed from the monitoring engine.`,
+      });
+    }
+  };
 
   return (
     <div className="space-y-6 animate-in fade-in duration-200">
@@ -31,10 +48,27 @@ export const GeofencesPage: React.FC = () => {
           </p>
         </div>
 
-        <Button variant="electric" size="sm" onClick={() => navigate('/live-map')} className="gap-1.5">
-          <MapPin className="w-4 h-4" />
-          <span>View on Live Map</span>
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setIsCreateModalOpen(true)}
+            className="gap-1.5 text-xs font-semibold"
+          >
+            <Plus className="w-4 h-4 text-brand-electric" />
+            <span>New Geofence</span>
+          </Button>
+
+          <Button
+            variant="electric"
+            size="sm"
+            onClick={() => navigate('/live-map')}
+            className="gap-1.5 text-xs font-semibold"
+          >
+            <MapPin className="w-4 h-4" />
+            <span>View on Live Map</span>
+          </Button>
+        </div>
       </div>
 
       {/* Geofence Zones Grid */}
@@ -58,17 +92,27 @@ export const GeofencesPage: React.FC = () => {
                     </CardTitle>
                   </div>
 
-                  <button
-                    onClick={() => toggleGeofenceVisibility(zone.id)}
-                    className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 transition"
-                    title={zone.visible ? 'Hide from map' : 'Show on map'}
-                  >
-                    {zone.visible ? (
-                      <Eye className="w-4 h-4 text-brand-electric" />
-                    ) : (
-                      <EyeOff className="w-4 h-4 text-slate-400" />
-                    )}
-                  </button>
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={() => toggleGeofenceVisibility(zone.id)}
+                      className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 transition"
+                      title={zone.visible ? 'Hide from map' : 'Show on map'}
+                    >
+                      {zone.visible ? (
+                        <Eye className="w-4 h-4 text-brand-electric" />
+                      ) : (
+                        <EyeOff className="w-4 h-4 text-slate-400" />
+                      )}
+                    </button>
+
+                    <button
+                      onClick={() => handleDeleteZone(zone.id, zone.name)}
+                      className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-800 hover:bg-rose-50 hover:text-rose-500 dark:hover:bg-rose-950/20 text-slate-400 transition"
+                      title="Deactivate Geofence"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
                 <CardDescription className="text-xs text-slate-500 mt-1">
                   {zone.description}
@@ -125,6 +169,11 @@ export const GeofencesPage: React.FC = () => {
           );
         })}
       </div>
+
+      <CreateGeofenceModal
+        isOpen={isCreateModalOpen}
+        onClose={() => setIsCreateModalOpen(false)}
+      />
     </div>
   );
 };

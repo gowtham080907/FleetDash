@@ -8,6 +8,9 @@ import { Input } from '@/components/ui/Input';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { VehicleQuickViewModal } from './VehicleQuickViewModal';
+import { AddVehicleModal } from './AddVehicleModal';
+import { useDeleteVehicle } from '@/hooks/useFleetData';
+import { useToastStore } from '@/stores/toastStore';
 import {
   Search,
   Filter,
@@ -18,6 +21,8 @@ import {
   ChevronRight,
   ShieldAlert,
   RotateCw,
+  Plus,
+  Trash2,
 } from 'lucide-react';
 
 interface VehicleTableProps {
@@ -39,8 +44,11 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({ initialSearch = '' }
 
   const [selectedVehicle, setSelectedVehicle] = useState<Vehicle | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
   const { data, isLoading, isError, refetch } = useVehicles(params);
+  const deleteVehicleMutation = useDeleteVehicle();
+  const { addToast } = useToastStore();
 
   const handleSort = (column: 'id' | 'name' | 'speed' | 'status' | 'lastUpdated') => {
     setParams((prev) => ({
@@ -54,6 +62,25 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({ initialSearch = '' }
   const handleInspect = (vehicle: Vehicle) => {
     setSelectedVehicle(vehicle);
     setIsModalOpen(true);
+  };
+
+  const handleDelete = async (vehicleId: string) => {
+    if (window.confirm(`Are you sure you want to remove vehicle ${vehicleId} from the registry?`)) {
+      try {
+        await deleteVehicleMutation.mutateAsync(vehicleId);
+        addToast({
+          type: 'info',
+          title: 'Vehicle Removed',
+          message: `Unit ${vehicleId} was removed from the active fleet.`,
+        });
+      } catch (err) {
+        addToast({
+          type: 'error',
+          title: 'Deletion Failed',
+          message: err instanceof Error ? err.message : 'Failed to delete vehicle',
+        });
+      }
+    }
   };
 
   return (
@@ -115,6 +142,16 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({ initialSearch = '' }
 
           <Button variant="outline" size="sm" onClick={() => refetch()} className="h-8 px-2" title="Refresh">
             <RotateCw className="w-3.5 h-3.5 text-slate-500" />
+          </Button>
+
+          <Button
+            variant="electric"
+            size="sm"
+            onClick={() => setIsAddModalOpen(true)}
+            className="h-8 px-2.5 gap-1.5 text-xs font-semibold"
+          >
+            <Plus className="w-3.5 h-3.5" />
+            <span>Add Vehicle</span>
           </Button>
         </div>
       </div>
@@ -306,6 +343,13 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({ initialSearch = '' }
                           >
                             <MapPin className="w-4 h-4" />
                           </button>
+                          <button
+                            onClick={() => handleDelete(vehicle.id)}
+                            className="rounded p-1 text-slate-400 hover:bg-rose-50 hover:text-rose-500 dark:hover:bg-rose-950/20 transition"
+                            title="Remove Vehicle"
+                          >
+                            <Trash2 className="w-4 h-4" />
+                          </button>
                         </div>
                       </td>
                     </tr>
@@ -383,6 +427,12 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({ initialSearch = '' }
         vehicle={selectedVehicle}
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
+      />
+
+      {/* Add Vehicle Modal */}
+      <AddVehicleModal
+        isOpen={isAddModalOpen}
+        onClose={() => setIsAddModalOpen(false)}
       />
     </div>
   );

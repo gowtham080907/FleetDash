@@ -1,11 +1,12 @@
 import { create } from 'zustand';
 import { GeofenceZone, GeofenceAlert } from '@/types/geofence';
 import { socketService } from '@/services/socket/socketService';
+import { fleetApi } from '@/services/api/fleetApi';
 
 export const INITIAL_GEOFENCES: GeofenceZone[] = [
   {
     id: 'geo-ohare-hub',
-    name: 'O\'Hare Logistics Air Hub',
+    name: "O'Hare Logistics Air Hub",
     type: 'circle',
     center: [41.9742, -87.9073],
     radiusMeters: 6500,
@@ -74,7 +75,7 @@ const INITIAL_ALERTS: GeofenceAlert[] = [
     id: 'alt-101',
     vehicleId: 'VH-1012',
     geofenceId: 'geo-ohare-hub',
-    geofenceName: 'O\'Hare Logistics Air Hub',
+    geofenceName: "O'Hare Logistics Air Hub",
     type: 'breach',
     severity: 'critical',
     timestamp: Date.now() - 4 * 60 * 1000,
@@ -128,16 +129,41 @@ interface AlertStoreState {
   geofences: GeofenceZone[];
   alerts: GeofenceAlert[];
   unreadAlertsCount: number;
+  syncFromBackend: () => Promise<void>;
   addAlert: (alert: Omit<GeofenceAlert, 'id' | 'acknowledged'>) => void;
   acknowledgeAlert: (id: string) => void;
   clearAllAlerts: () => void;
   toggleGeofenceVisibility: (id: string) => void;
+  addGeofence: (zone: Omit<GeofenceZone, 'id' | 'activeVehiclesCount' | 'breachCount'>) => Promise<void>;
+  deleteGeofence: (id: string) => Promise<void>;
 }
 
 export const useAlertStore = create<AlertStoreState>((set) => ({
   geofences: INITIAL_GEOFENCES,
   alerts: INITIAL_ALERTS,
   unreadAlertsCount: INITIAL_ALERTS.filter((a) => !a.acknowledged).length,
+
+  syncFromBackend: async () => {
+    try {
+      const [backendGeofences, backendAlerts] = await Promise.all([
+        fleetApi.getGeofences(),
+        fleetApi.getAlerts({ limit: 50 }),
+      ]);
+
+      if (backendGeofences && backendGeofences.length > 0) {
+        set({ geofences: backendGeofences });
+      }
+
+      if (backendAlerts && backendAlerts.length > 0) {
+        set({
+          alerts: backendAlerts,
+          unreadAlertsCount: backendAlerts.filter((a) => !a.acknowledged).length,
+        });
+      }
+    } catch {
+      // Retain existing in-memory state on sync failure
+    }
+  },
 
   addAlert: (alertData) => {
     const newAlert: GeofenceAlert = {
@@ -147,7 +173,7 @@ export const useAlertStore = create<AlertStoreState>((set) => ({
     };
 
     set((state) => {
-      const updated = [newAlert, ...state.alerts.slice(0, 99)]; // Keep max 100
+      const updated = [newAlert, ...state.alerts.slice(0, 99)];
       return {
         alerts: updated,
         unreadAlertsCount: state.unreadAlertsCount + 1,
@@ -156,6 +182,7 @@ export const useAlertStore = create<AlertStoreState>((set) => ({
   },
 
   acknowledgeAlert: (id: string) => {
+    void fleetApi.acknowledgeAlert(id);
     set((state) => {
       const updated = state.alerts.map((a) =>
         a.id === id ? { ...a, acknowledged: true } : a
@@ -168,6 +195,7 @@ export const useAlertStore = create<AlertStoreState>((set) => ({
   },
 
   clearAllAlerts: () => {
+    void fleetApi.clearAllAlerts();
     set({ alerts: [], unreadAlertsCount: 0 });
   },
 
@@ -178,9 +206,38 @@ export const useAlertStore = create<AlertStoreState>((set) => ({
       ),
     }));
   },
+
+  addGeofence: async (zoneData) => {
+    try {
+      const created = await fleetApi.createGeofence(zoneData);
+      set((state) => ({
+        geofences: [...state.geofences, created],
+      }));
+    } catch {
+      // Local fallback
+      const fallback: GeofenceZone = {
+        ...zoneData,
+        id: `geo-${Date.now()}`,
+        activeVehiclesCount: 0,
+        breachCount: 0,
+      };
+      set((state) => ({
+        geofences: [...state.geofences, fallback],
+      }));
+    }
+  },
+
+  deleteGeofence: async (id: string) => {
+    try {
+      await fleetApi.deleteGeofence(id);
+    } catch {}
+    set((state) => ({
+      geofences: state.geofences.filter((g) => g.id !== id),
+    }));
+  },
 }));
 
-// Automatically wire socket geofence breaches to the alert store
+// Wire Socket.IO geofence breaches to alert store
 socketService.on('geofence:breach', (payload) => {
   useAlertStore.getState().addAlert({
     vehicleId: payload.vehicleId,
@@ -194,3 +251,8 @@ socketService.on('geofence:breach', (payload) => {
     speed: payload.speed,
   });
 });
+
+// Initial trigger to sync with backend if available
+if (typeof window !== 'undefined') {
+  void useAlertStore.getState().syncFromBackend();
+}

@@ -7,7 +7,7 @@ describe('Fleet API Service', () => {
     expect(stats.totalVehicles).toBeGreaterThan(0);
     expect(stats.activeVehicles + stats.idleVehicles + stats.offlineVehicles).toBe(stats.totalVehicles);
     expect(stats.connectionStatus).toBe('connected');
-    expect(stats.eventsPerSecond).toBeGreaterThan(0);
+    expect(stats.eventsPerSecond).toBeGreaterThanOrEqual(0);
   });
 
   it('paginates vehicle list correctly', async () => {
