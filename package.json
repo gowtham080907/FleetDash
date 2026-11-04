@@ -5,10 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:backend": "cd backend && npm run dev",
     "build": "tsc && vite build",
+    "build:backend": "cd backend && npm run build",
+    "build:all": "npm run build && cd backend && npm run build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:backend": "cd backend && npm test",
+    "test:all": "vitest run && cd backend && npm test"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

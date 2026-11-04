@@ -1,11 +1,12 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useVehicle } from '@/hooks/useFleetData';
+import { useVehicle, useVehicleHistory, useUpdateVehicle } from '@/hooks/useFleetData';
 import { StaticFleetMap } from '@/components/map/StaticFleetMap';
 import { StatusBadge } from '@/components/ui/StatusBadge';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Skeleton } from '@/components/ui/Skeleton';
+import { useToastStore } from '@/stores/toastStore';
 import {
   ArrowLeft,
   Truck,
@@ -17,12 +18,16 @@ import {
   ExternalLink,
   Fuel,
   Battery,
+  RotateCw,
 } from 'lucide-react';
 
 export const VehicleDetailsPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { data: vehicle, isLoading, isError } = useVehicle(id);
+  const { data: historyData } = useVehicleHistory(id);
+  const updateVehicleMutation = useUpdateVehicle();
+  const { addToast } = useToastStore();
 
   if (isLoading) {
     return (
@@ -53,14 +58,42 @@ export const VehicleDetailsPage: React.FC = () => {
     );
   }
 
-  // Simulated breadcrumb trail for this vehicle
-  const breadcrumbs = [
-    { time: '1 min ago', speed: vehicle.speed, lat: vehicle.latitude, lng: vehicle.longitude },
-    { time: '3 min ago', speed: Math.max(0, vehicle.speed - 4), lat: vehicle.latitude - 0.003, lng: vehicle.longitude - 0.002 },
-    { time: '5 min ago', speed: Math.max(0, vehicle.speed - 8), lat: vehicle.latitude - 0.006, lng: vehicle.longitude - 0.004 },
-    { time: '8 min ago', speed: Math.max(0, vehicle.speed - 2), lat: vehicle.latitude - 0.009, lng: vehicle.longitude - 0.007 },
-    { time: '12 min ago', speed: 0, lat: vehicle.latitude - 0.012, lng: vehicle.longitude - 0.010 },
-  ];
+  const handleToggleStatus = async () => {
+    const nextStatus = vehicle.status === 'active' ? 'idle' : 'active';
+    try {
+      await updateVehicleMutation.mutateAsync({
+        id: vehicle.id,
+        updates: { status: nextStatus, speed: nextStatus === 'idle' ? 0 : 55 },
+      });
+      addToast({
+        type: 'success',
+        title: 'Status Updated',
+        message: `Asset ${vehicle.id} transition to ${nextStatus.toUpperCase()} recorded.`,
+      });
+    } catch (err) {
+      addToast({
+        type: 'error',
+        title: 'Update Failed',
+        message: err instanceof Error ? err.message : 'Failed to update vehicle',
+      });
+    }
+  };
+
+  // Breadcrumbs from backend API or synthesized fallback
+  const breadcrumbs = historyData?.breadcrumbs?.length
+    ? historyData.breadcrumbs.slice(0, 6).map((b) => ({
+        time: b.time,
+        speed: b.speed,
+        lat: b.latitude,
+        lng: b.longitude,
+      }))
+    : [
+        { time: 'Just now', speed: vehicle.speed, lat: vehicle.latitude, lng: vehicle.longitude },
+        { time: '2 mins ago', speed: Math.max(0, vehicle.speed - 4), lat: vehicle.latitude - 0.003, lng: vehicle.longitude - 0.002 },
+        { time: '5 mins ago', speed: Math.max(0, vehicle.speed - 8), lat: vehicle.latitude - 0.006, lng: vehicle.longitude - 0.004 },
+        { time: '8 mins ago', speed: Math.max(0, vehicle.speed - 2), lat: vehicle.latitude - 0.009, lng: vehicle.longitude - 0.007 },
+        { time: '12 mins ago', speed: 0, lat: vehicle.latitude - 0.012, lng: vehicle.longitude - 0.010 },
+      ];
 
   return (
     <div className="space-y-6 animate-in fade-in duration-200">
@@ -82,9 +115,21 @@ export const VehicleDetailsPage: React.FC = () => {
           <Button
             variant="outline"
             size="sm"
-            onClick={() => navigate(`/live-map?focus=${vehicle.id}`)}
+            onClick={handleToggleStatus}
+            isLoading={updateVehicleMutation.isPending}
+            className="text-xs"
           >
-            <ExternalLink className="w-3.5 h-3.5 mr-1" />
+            <RotateCw className="w-3.5 h-3.5 mr-1.5" />
+            Set {vehicle.status === 'active' ? 'Idle' : 'Active'}
+          </Button>
+
+          <Button
+            variant="electric"
+            size="sm"
+            onClick={() => navigate(`/live-map?focus=${vehicle.id}`)}
+            className="text-xs"
+          >
+            <ExternalLink className="w-3.5 h-3.5 mr-1.5" />
             Track on Live Map
           </Button>
         </div>
@@ -209,7 +254,7 @@ export const VehicleDetailsPage: React.FC = () => {
               <Clock className="w-4 h-4 text-brand-electric" />
               Recent Trajectory Breadcrumbs
             </CardTitle>
-            <CardDescription>Telemetry packets recorded within last 15 minutes</CardDescription>
+            <CardDescription>Authoritative telemetry updates recorded for this unit</CardDescription>
           </CardHeader>
           <CardContent className="flex-1 space-y-3 text-xs">
             {breadcrumbs.map((b, i) => (

@@ -1,0 +1,5125 @@
+{
+  "vehicles": [
+    {
+      "id": "VH-1001",
+      "name": "Fleet Unit #1001",
+      "driverName": "Marcus Vance",
+      "status": "active",
+      "speed": 98.4,
+      "heading": 140,
+      "latitude": 41.9745,
+      "longitude": -87.9075,
+      "lastUpdated": 1793722739356,
+      "geofenceStatus": "breached",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 87,
+      "batteryLevel": 83,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 10450
+    },
+    {
+      "id": "VH-1002",
+      "name": "Fleet Unit #1002",
+      "driverName": "Elena Rostova",
+      "status": "active",
+      "speed": 45,
+      "heading": 90,
+      "latitude": 41.88,
+      "longitude": -87.63,
+      "lastUpdated": 1793722739409,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 74,
+      "batteryLevel": 66,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 10900
+    },
+    {
+      "id": "VH-1003",
+      "name": "Fleet Unit #1003",
+      "driverName": "David Kim",
+      "status": "active",
+      "speed": 94,
+      "heading": 260,
+      "latitude": 17.416679,
+      "longitude": 78.519067,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 61,
+      "batteryLevel": 49,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 11350
+    },
+    {
+      "id": "VH-1004",
+      "name": "Fleet Unit #1004",
+      "driverName": "Amara Okafor",
+      "status": "active",
+      "speed": 71,
+      "heading": 135,
+      "latitude": 17.443973,
+      "longitude": 78.544434,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 48,
+      "batteryLevel": 32,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 11800
+    },
+    {
+      "id": "VH-1005",
+      "name": "Fleet Unit #1005",
+      "driverName": "Liam O'Connor",
+      "status": "active",
+      "speed": 64,
+      "heading": 119,
+      "latitude": 17.44176,
+      "longitude": 78.481901,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 35,
+      "batteryLevel": 100,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 12250
+    },
+    {
+      "id": "VH-1006",
+      "name": "Fleet Unit #1006",
+      "driverName": "Carlos Mendez",
+      "status": "active",
+      "speed": 34,
+      "heading": 169,
+      "latitude": 17.344934,
+      "longitude": 78.536106,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 22,
+      "batteryLevel": 83,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 12700
+    },
+    {
+      "id": "VH-1007",
+      "name": "Fleet Unit #1007",
+      "driverName": "Aisha Al-Mansoor",
+      "status": "active",
+      "speed": 88,
+      "heading": 181,
+      "latitude": 17.433513,
+      "longitude": 78.536884,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 99,
+      "batteryLevel": 66,
+      "model": "Scania R500 V8",
+      "odometer": 13150
+    },
+    {
+      "id": "VH-1008",
+      "name": "Fleet Unit #1008",
+      "driverName": "James Wilson",
+      "status": "active",
+      "speed": 86,
+      "heading": 240,
+      "latitude": 17.442637,
+      "longitude": 78.554984,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 86,
+      "batteryLevel": 49,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 13600
+    },
+    {
+      "id": "VH-1009",
+      "name": "Fleet Unit #1009",
+      "driverName": "Mei-Ling Chen",
+      "status": "active",
+      "speed": 90,
+      "heading": 331,
+      "latitude": 17.326992,
+      "longitude": 78.510624,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 73,
+      "batteryLevel": 32,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 14050
+    },
+    {
+      "id": "VH-1010",
+      "name": "Fleet Unit #1010",
+      "driverName": "Dmitri Petrov",
+      "status": "active",
+      "speed": 53,
+      "heading": 88,
+      "latitude": 17.458516,
+      "longitude": 78.47575,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 60,
+      "batteryLevel": 100,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 14500
+    },
+    {
+      "id": "VH-1011",
+      "name": "Fleet Unit #1011",
+      "driverName": "Chloe Bennett",
+      "status": "active",
+      "speed": 32,
+      "heading": 192,
+      "latitude": 17.421043,
+      "longitude": 78.472075,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 47,
+      "batteryLevel": 83,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 14950
+    },
+    {
+      "id": "VH-1012",
+      "name": "Fleet Unit #1012",
+      "driverName": "Tariq Hassan",
+      "status": "active",
+      "speed": 49,
+      "heading": 63,
+      "latitude": 17.436701,
+      "longitude": 78.429302,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 34,
+      "batteryLevel": 66,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 15400
+    },
+    {
+      "id": "VH-1013",
+      "name": "Fleet Unit #1013",
+      "driverName": "Sofia Rossi",
+      "status": "active",
+      "speed": 82,
+      "heading": 71,
+      "latitude": 17.37676,
+      "longitude": 78.465914,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 21,
+      "batteryLevel": 49,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 15850
+    },
+    {
+      "id": "VH-1014",
+      "name": "Fleet Unit #1014",
+      "driverName": "Jackson Reed",
+      "status": "active",
+      "speed": 10,
+      "heading": 342,
+      "latitude": 17.395686,
+      "longitude": 78.49139,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 98,
+      "batteryLevel": 32,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 16300
+    },
+    {
+      "id": "VH-1015",
+      "name": "Fleet Unit #1015",
+      "driverName": "Priya Patel",
+      "status": "active",
+      "speed": 52,
+      "heading": 25,
+      "latitude": 17.411719,
+      "longitude": 78.514709,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 85,
+      "batteryLevel": 100,
+      "model": "Scania R500 V8",
+      "odometer": 16750
+    },
+    {
+      "id": "VH-1016",
+      "name": "Fleet Unit #1016",
+      "driverName": "Johan Lindstrom",
+      "status": "active",
+      "speed": 45,
+      "heading": 6,
+      "latitude": 17.328747,
+      "longitude": 78.520994,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 72,
+      "batteryLevel": 83,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 17200
+    },
+    {
+      "id": "VH-1017",
+      "name": "Fleet Unit #1017",
+      "driverName": "Fatima Zahra",
+      "status": "active",
+      "speed": 22,
+      "heading": 63,
+      "latitude": 17.382513,
+      "longitude": 78.454084,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 59,
+      "batteryLevel": 66,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 17650
+    },
+    {
+      "id": "VH-1018",
+      "name": "Fleet Unit #1018",
+      "driverName": "Mateo Hernandez",
+      "status": "active",
+      "speed": 30,
+      "heading": 114,
+      "latitude": 17.396625,
+      "longitude": 78.421175,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 46,
+      "batteryLevel": 49,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 18100
+    },
+    {
+      "id": "VH-1019",
+      "name": "Fleet Unit #1019",
+      "driverName": "Grace O'Malley",
+      "status": "active",
+      "speed": 29,
+      "heading": 51,
+      "latitude": 17.400973,
+      "longitude": 78.508442,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 33,
+      "batteryLevel": 32,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 18550
+    },
+    {
+      "id": "VH-1020",
+      "name": "Fleet Unit #1020",
+      "driverName": "Kenji Sato",
+      "status": "active",
+      "speed": 62,
+      "heading": 143,
+      "latitude": 17.323253,
+      "longitude": 78.434557,
+      "lastUpdated": 1793721733883,
+      "geofenceStatus": "clear",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 20,
+      "batteryLevel": 100,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 19000
+    },
+    {
+      "id": "VH-1021",
+      "name": "Fleet Unit #1021",
+      "driverName": "Marcus Vance",
+      "status": "offline",
+      "speed": 0,
+      "heading": 267,
+      "latitude": 41.992429,
+      "longitude": -87.609585,
+      "lastUpdated": 1793720662948,
+      "geofenceStatus": "none",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 97,
+      "batteryLevel": 83,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 19450
+    },
+    {
+      "id": "VH-1022",
+      "name": "Fleet Unit #1022",
+      "driverName": "Elena Rostova",
+      "status": "active",
+      "speed": 79,
+      "heading": 314,
+      "latitude": 41.770356,
+      "longitude": -87.528475,
+      "lastUpdated": 1793720661948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 84,
+      "batteryLevel": 66,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 19900
+    },
+    {
+      "id": "VH-1023",
+      "name": "Fleet Unit #1023",
+      "driverName": "David Kim",
+      "status": "active",
+      "speed": 86,
+      "heading": 1,
+      "latitude": 41.910078,
+      "longitude": -87.823531,
+      "lastUpdated": 1793720660948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 71,
+      "batteryLevel": 49,
+      "model": "Scania R500 V8",
+      "odometer": 20350
+    },
+    {
+      "id": "VH-1024",
+      "name": "Fleet Unit #1024",
+      "driverName": "Amara Okafor",
+      "status": "active",
+      "speed": 38,
+      "heading": 48,
+      "latitude": 41.960082,
+      "longitude": -87.439089,
+      "lastUpdated": 1793720659948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 58,
+      "batteryLevel": 32,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 20800
+    },
+    {
+      "id": "VH-1025",
+      "name": "Fleet Unit #1025",
+      "driverName": "Liam O'Connor",
+      "status": "idle",
+      "speed": 0,
+      "heading": 95,
+      "latitude": 41.706259,
+      "longitude": -87.702569,
+      "lastUpdated": 1793720658948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 45,
+      "batteryLevel": 100,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 21250
+    },
+    {
+      "id": "VH-1026",
+      "name": "Fleet Unit #1026",
+      "driverName": "Carlos Mendez",
+      "status": "active",
+      "speed": 52,
+      "heading": 142,
+      "latitude": 42.056096,
+      "longitude": -87.741275,
+      "lastUpdated": 1793720657948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 32,
+      "batteryLevel": 83,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 21700
+    },
+    {
+      "id": "VH-1027",
+      "name": "Fleet Unit #1027",
+      "driverName": "Aisha Al-Mansoor",
+      "status": "active",
+      "speed": 81,
+      "heading": 189,
+      "latitude": 41.796737,
+      "longitude": -87.365984,
+      "lastUpdated": 1793720656948,
+      "geofenceStatus": "breached",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 19,
+      "batteryLevel": 66,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 22150
+    },
+    {
+      "id": "VH-1028",
+      "name": "Fleet Unit #1028",
+      "driverName": "James Wilson",
+      "status": "offline",
+      "speed": 0,
+      "heading": 236,
+      "latitude": 41.799836,
+      "longitude": -87.918597,
+      "lastUpdated": 1793720655948,
+      "geofenceStatus": "none",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 96,
+      "batteryLevel": 49,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 22600
+    },
+    {
+      "id": "VH-1029",
+      "name": "Fleet Unit #1029",
+      "driverName": "Mei-Ling Chen",
+      "status": "active",
+      "speed": 73,
+      "heading": 283,
+      "latitude": 42.095458,
+      "longitude": -87.477833,
+      "lastUpdated": 1793720654948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 83,
+      "batteryLevel": 32,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 23050
+    },
+    {
+      "id": "VH-1030",
+      "name": "Fleet Unit #1030",
+      "driverName": "Dmitri Petrov",
+      "status": "idle",
+      "speed": 0,
+      "heading": 330,
+      "latitude": 41.860696,
+      "longitude": -87.623537,
+      "lastUpdated": 1793720653948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 70,
+      "batteryLevel": 100,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 23500
+    },
+    {
+      "id": "VH-1031",
+      "name": "Fleet Unit #1031",
+      "driverName": "Chloe Bennett",
+      "status": "active",
+      "speed": 87,
+      "heading": 17,
+      "latitude": 41.896494,
+      "longitude": -87.668578,
+      "lastUpdated": 1793720652948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 57,
+      "batteryLevel": 83,
+      "model": "Scania R500 V8",
+      "odometer": 23950
+    },
+    {
+      "id": "VH-1032",
+      "name": "Fleet Unit #1032",
+      "driverName": "Tariq Hassan",
+      "status": "active",
+      "speed": 39,
+      "heading": 64,
+      "latitude": 41.886861,
+      "longitude": -87.563071,
+      "lastUpdated": 1793720651948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 44,
+      "batteryLevel": 66,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 24400
+    },
+    {
+      "id": "VH-1033",
+      "name": "Fleet Unit #1033",
+      "driverName": "Sofia Rossi",
+      "status": "active",
+      "speed": 46,
+      "heading": 111,
+      "latitude": 41.82521,
+      "longitude": -87.684307,
+      "lastUpdated": 1793720650948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 31,
+      "batteryLevel": 49,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 24850
+    },
+    {
+      "id": "VH-1034",
+      "name": "Fleet Unit #1034",
+      "driverName": "Jackson Reed",
+      "status": "active",
+      "speed": 53,
+      "heading": 158,
+      "latitude": 41.960667,
+      "longitude": -87.639502,
+      "lastUpdated": 1793720649948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 18,
+      "batteryLevel": 32,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 25300
+    },
+    {
+      "id": "VH-1035",
+      "name": "Fleet Unit #1035",
+      "driverName": "Priya Patel",
+      "status": "offline",
+      "speed": 0,
+      "heading": 205,
+      "latitude": 41.81115,
+      "longitude": -87.531671,
+      "lastUpdated": 1793720648948,
+      "geofenceStatus": "none",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 95,
+      "batteryLevel": 100,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 25750
+    },
+    {
+      "id": "VH-1036",
+      "name": "Fleet Unit #1036",
+      "driverName": "Johan Lindstrom",
+      "status": "active",
+      "speed": 67,
+      "heading": 252,
+      "latitude": 41.8781,
+      "longitude": -87.784676,
+      "lastUpdated": 1793720647948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 82,
+      "batteryLevel": 83,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 26200
+    },
+    {
+      "id": "VH-1037",
+      "name": "Fleet Unit #1037",
+      "driverName": "Fatima Zahra",
+      "status": "active",
+      "speed": 74,
+      "heading": 299,
+      "latitude": 41.966961,
+      "longitude": -87.499556,
+      "lastUpdated": 1793720646948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 69,
+      "batteryLevel": 66,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 26650
+    },
+    {
+      "id": "VH-1038",
+      "name": "Fleet Unit #1038",
+      "driverName": "Mateo Hernandez",
+      "status": "active",
+      "speed": 81,
+      "heading": 346,
+      "latitude": 41.730914,
+      "longitude": -87.647095,
+      "lastUpdated": 1793720645948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 56,
+      "batteryLevel": 49,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 27100
+    },
+    {
+      "id": "VH-1039",
+      "name": "Fleet Unit #1039",
+      "driverName": "Grace O'Malley",
+      "status": "active",
+      "speed": 88,
+      "heading": 33,
+      "latitude": 42.008181,
+      "longitude": -87.763858,
+      "lastUpdated": 1793720644948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 43,
+      "batteryLevel": 32,
+      "model": "Scania R500 V8",
+      "odometer": 27550
+    },
+    {
+      "id": "VH-1040",
+      "name": "Fleet Unit #1040",
+      "driverName": "Kenji Sato",
+      "status": "idle",
+      "speed": 0,
+      "heading": 80,
+      "latitude": 41.846812,
+      "longitude": -87.391483,
+      "lastUpdated": 1793720643948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 30,
+      "batteryLevel": 100,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 28000
+    },
+    {
+      "id": "VH-1041",
+      "name": "Fleet Unit #1041",
+      "driverName": "Marcus Vance",
+      "status": "active",
+      "speed": 47,
+      "heading": 127,
+      "latitude": 41.772576,
+      "longitude": -87.852264,
+      "lastUpdated": 1793720642948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 17,
+      "batteryLevel": 83,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 28450
+    },
+    {
+      "id": "VH-1042",
+      "name": "Fleet Unit #1042",
+      "driverName": "Elena Rostova",
+      "status": "offline",
+      "speed": 0,
+      "heading": 174,
+      "latitude": 42.083468,
+      "longitude": -87.555894,
+      "lastUpdated": 1793720641948,
+      "geofenceStatus": "none",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 94,
+      "batteryLevel": 66,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 28900
+    },
+    {
+      "id": "VH-1043",
+      "name": "Fleet Unit #1043",
+      "driverName": "David Kim",
+      "status": "active",
+      "speed": 61,
+      "heading": 221,
+      "latitude": 41.675126,
+      "longitude": -87.48789,
+      "lastUpdated": 1793720640948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 81,
+      "batteryLevel": 49,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 29350
+    },
+    {
+      "id": "VH-1044",
+      "name": "Fleet Unit #1044",
+      "driverName": "Amara Okafor",
+      "status": "active",
+      "speed": 82,
+      "heading": 268,
+      "latitude": 41.96191,
+      "longitude": -87.939063,
+      "lastUpdated": 1793720639948,
+      "geofenceStatus": "breached",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 68,
+      "batteryLevel": 32,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 29800
+    },
+    {
+      "id": "VH-1045",
+      "name": "Fleet Unit #1045",
+      "driverName": "Liam O'Connor",
+      "status": "idle",
+      "speed": 0,
+      "heading": 315,
+      "latitude": 41.884995,
+      "longitude": -87.607443,
+      "lastUpdated": 1793720638948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 55,
+      "batteryLevel": 100,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 30250
+    },
+    {
+      "id": "VH-1046",
+      "name": "Fleet Unit #1046",
+      "driverName": "Carlos Mendez",
+      "status": "active",
+      "speed": 82,
+      "heading": 2,
+      "latitude": 41.847073,
+      "longitude": -87.649231,
+      "lastUpdated": 1793720637948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 42,
+      "batteryLevel": 83,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 30700
+    },
+    {
+      "id": "VH-1047",
+      "name": "Fleet Unit #1047",
+      "driverName": "Aisha Al-Mansoor",
+      "status": "active",
+      "speed": 89,
+      "heading": 49,
+      "latitude": 41.926215,
+      "longitude": -87.650175,
+      "lastUpdated": 1793720636948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 29,
+      "batteryLevel": 66,
+      "model": "Scania R500 V8",
+      "odometer": 31150
+    },
+    {
+      "id": "VH-1048",
+      "name": "Fleet Unit #1048",
+      "driverName": "James Wilson",
+      "status": "active",
+      "speed": 41,
+      "heading": 96,
+      "latitude": 41.844767,
+      "longitude": -87.552258,
+      "lastUpdated": 1793720635948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 16,
+      "batteryLevel": 49,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 31600
+    },
+    {
+      "id": "VH-1049",
+      "name": "Fleet Unit #1049",
+      "driverName": "Mei-Ling Chen",
+      "status": "offline",
+      "speed": 0,
+      "heading": 143,
+      "latitude": 41.860161,
+      "longitude": -87.738478,
+      "lastUpdated": 1793720634948,
+      "geofenceStatus": "none",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 93,
+      "batteryLevel": 32,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 32050
+    },
+    {
+      "id": "VH-1050",
+      "name": "Fleet Unit #1050",
+      "driverName": "Dmitri Petrov",
+      "status": "idle",
+      "speed": 0,
+      "heading": 190,
+      "latitude": 41.959277,
+      "longitude": -87.553459,
+      "lastUpdated": 1793720633948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 80,
+      "batteryLevel": 100,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 32500
+    },
+    {
+      "id": "VH-1051",
+      "name": "Fleet Unit #1051",
+      "driverName": "Chloe Bennett",
+      "status": "active",
+      "speed": 62,
+      "heading": 237,
+      "latitude": 41.763771,
+      "longitude": -87.609585,
+      "lastUpdated": 1793720632948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 67,
+      "batteryLevel": 83,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 32950
+    },
+    {
+      "id": "VH-1052",
+      "name": "Fleet Unit #1052",
+      "driverName": "Tariq Hassan",
+      "status": "active",
+      "speed": 69,
+      "heading": 284,
+      "latitude": 41.962647,
+      "longitude": -87.765126,
+      "lastUpdated": 1793720631948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 54,
+      "batteryLevel": 66,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 33400
+    },
+    {
+      "id": "VH-1053",
+      "name": "Fleet Unit #1053",
+      "driverName": "Sofia Rossi",
+      "status": "active",
+      "speed": 76,
+      "heading": 331,
+      "latitude": 41.884545,
+      "longitude": -87.431554,
+      "lastUpdated": 1793720630948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 41,
+      "batteryLevel": 49,
+      "model": "Peterbilt 579 UltraLoft",
+      "odometer": 33850
+    },
+    {
+      "id": "VH-1054",
+      "name": "Fleet Unit #1054",
+      "driverName": "Jackson Reed",
+      "status": "active",
+      "speed": 83,
+      "heading": 18,
+      "latitude": 41.76216,
+      "longitude": -87.785515,
+      "lastUpdated": 1793720629948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 28,
+      "batteryLevel": 32,
+      "model": "Mercedes-Benz Actros GigaSpace",
+      "odometer": 34300
+    },
+    {
+      "id": "VH-1055",
+      "name": "Fleet Unit #1055",
+      "driverName": "Priya Patel",
+      "status": "idle",
+      "speed": 0,
+      "heading": 65,
+      "latitude": 42.058109,
+      "longitude": -87.619244,
+      "lastUpdated": 1793720628948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 15,
+      "batteryLevel": 100,
+      "model": "Scania R500 V8",
+      "odometer": 34750
+    },
+    {
+      "id": "VH-1056",
+      "name": "Fleet Unit #1056",
+      "driverName": "Johan Lindstrom",
+      "status": "offline",
+      "speed": 0,
+      "heading": 112,
+      "latitude": 41.727652,
+      "longitude": -87.46025,
+      "lastUpdated": 1793720627948,
+      "geofenceStatus": "none",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 92,
+      "batteryLevel": 83,
+      "model": "Rivian Commercial Van 700",
+      "odometer": 35200
+    },
+    {
+      "id": "VH-1057",
+      "name": "Fleet Unit #1057",
+      "driverName": "Fatima Zahra",
+      "status": "active",
+      "speed": 49,
+      "heading": 159,
+      "latitude": 41.905852,
+      "longitude": -87.912909,
+      "lastUpdated": 1793720626948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 79,
+      "batteryLevel": 66,
+      "model": "Freightliner Cascadia EV",
+      "odometer": 35650
+    },
+    {
+      "id": "VH-1058",
+      "name": "Fleet Unit #1058",
+      "driverName": "Mateo Hernandez",
+      "status": "active",
+      "speed": 99,
+      "heading": 206,
+      "latitude": 42.009351,
+      "longitude": -87.378049,
+      "lastUpdated": 1793720625948,
+      "geofenceStatus": "breached",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 66,
+      "batteryLevel": 49,
+      "model": "Volvo VNL 860 Long-Haul",
+      "odometer": 36100
+    },
+    {
+      "id": "VH-1059",
+      "name": "Fleet Unit #1059",
+      "driverName": "Grace O'Malley",
+      "status": "active",
+      "speed": 63,
+      "heading": 253,
+      "latitude": 41.638864,
+      "longitude": -87.701033,
+      "lastUpdated": 1793720624948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "Midwest Central Freight Depot",
+      "fuelLevel": 53,
+      "batteryLevel": 32,
+      "model": "Kenworth T680 Autonomous-Ready",
+      "odometer": 36550
+    },
+    {
+      "id": "VH-1060",
+      "name": "Fleet Unit #1060",
+      "driverName": "Kenji Sato",
+      "status": "idle",
+      "speed": 0,
+      "heading": 300,
+      "latitude": 41.893704,
+      "longitude": -87.6419,
+      "lastUpdated": 1793720683948,
+      "geofenceStatus": "inside",
+      "currentGeofence": "O'Hare Logistics Air Hub",
+      "fuelLevel": 40,
+      "batteryLevel": 100,
+      "model": "Ford E-Transit Cargo",
+      "odometer": 37000
+    },
+    {
+      "id": "V1",
+      "name": "Fleet Unit #1",
+      "status": "active",
+      "speed": 40,
+      "heading": 0,
+      "latitude": 17.385,
+      "longitude": 78.486,
+      "lastUpdated": 1793722643165,
+      "geofenceStatus": "clear",
+      "currentGeofence": "Metro Distribution Hub A",
+      "model": "Commercial Freight Unit",
+      "fuelLevel": 80,
+      "odometer": 15000
+    }
+  ],
+  "geofences": [
+    {
+      "id": "geo-ohare-hub",
+      "name": "O'Hare Logistics Air Hub",
+      "type": "circle",
+      "center": [
+        41.9742,
+        -87.9073
+      ],
+      "radiusMeters": 6500,
+      "color": "#0066FF",
+      "fillOpacity": 0.15,
+      "speedLimitKmH": 45,
+      "description": "High-security priority air freight handling corridor",
+      "visible": true,
+      "activeVehiclesCount": 1,
+      "breachCount": 1
+    },
+    {
+      "id": "geo-central-freight",
+      "name": "Midwest Central Freight Depot",
+      "type": "polygon",
+      "coordinates": [
+        [
+          41.91,
+          -87.72
+        ],
+        [
+          41.91,
+          -87.61
+        ],
+        [
+          41.83,
+          -87.61
+        ],
+        [
+          41.83,
+          -87.72
+        ]
+      ],
+      "color": "#10B981",
+      "fillOpacity": 0.12,
+      "speedLimitKmH": 60,
+      "description": "Central distribution hub and inland intermodal yard",
+      "visible": true,
+      "activeVehiclesCount": 5,
+      "breachCount": 2
+    },
+    {
+      "id": "geo-south-marine",
+      "name": "South Shore Marine Port Gate",
+      "type": "circle",
+      "center": [
+        41.758,
+        -87.554
+      ],
+      "radiusMeters": 5500,
+      "color": "#F59E0B",
+      "fillOpacity": 0.15,
+      "speedLimitKmH": 35,
+      "description": "Port container terminal transfer and customs yard",
+      "visible": true,
+      "activeVehiclesCount": 2,
+      "breachCount": 2
+    },
+    {
+      "id": "geo-north-corridor",
+      "name": "North Interstate Freight Belt",
+      "type": "polygon",
+      "coordinates": [
+        [
+          42.04,
+          -87.85
+        ],
+        [
+          42.04,
+          -87.75
+        ],
+        [
+          41.96,
+          -87.75
+        ],
+        [
+          41.96,
+          -87.85
+        ]
+      ],
+      "color": "#8B5CF6",
+      "fillOpacity": 0.12,
+      "speedLimitKmH": 80,
+      "description": "Heavy industrial transit route and staging bays",
+      "visible": true,
+      "activeVehiclesCount": 2,
+      "breachCount": 1
+    }
+  ],
+  "alerts": [
+    {
+      "vehicleId": "VH-1002",
+      "geofenceId": "geo-central-freight",
+      "geofenceName": "Midwest Central Freight Depot",
+      "type": "entry",
+      "severity": "info",
+      "timestamp": 1793722739409,
+      "latitude": 41.88,
+      "longitude": -87.63,
+      "speed": 45,
+      "acknowledged": true,
+      "id": "alt-1793722739410-v5wb"
+    },
+    {
+      "vehicleId": "VH-1001",
+      "geofenceId": "geo-ohare-hub",
+      "geofenceName": "O'Hare Logistics Air Hub",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793722739356,
+      "latitude": 41.9745,
+      "longitude": -87.9075,
+      "speed": 98.4,
+      "acknowledged": true,
+      "id": "alt-1793722739357-kbox"
+    },
+    {
+      "vehicleId": "VH-1001",
+      "geofenceId": "geo-ohare-hub",
+      "geofenceName": "O'Hare Logistics Air Hub",
+      "type": "entry",
+      "severity": "info",
+      "timestamp": 1793722739356,
+      "latitude": 41.9745,
+      "longitude": -87.9075,
+      "speed": 98.4,
+      "acknowledged": true,
+      "id": "alt-1793722739357-gd4i"
+    },
+    {
+      "vehicleId": "VH-1002",
+      "geofenceId": "geo-central-freight",
+      "geofenceName": "Midwest Central Freight Depot",
+      "type": "entry",
+      "severity": "info",
+      "timestamp": 1793722543356,
+      "latitude": 41.88,
+      "longitude": -87.63,
+      "speed": 45,
+      "acknowledged": true,
+      "id": "alt-1793722543359-vi21"
+    },
+    {
+      "vehicleId": "VH-1001",
+      "geofenceId": "geo-ohare-hub",
+      "geofenceName": "O'Hare Logistics Air Hub",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793722543302,
+      "latitude": 41.9745,
+      "longitude": -87.9075,
+      "speed": 98.4,
+      "acknowledged": true,
+      "id": "alt-1793722543303-w8p5"
+    },
+    {
+      "vehicleId": "VH-1001",
+      "geofenceId": "geo-ohare-hub",
+      "geofenceName": "O'Hare Logistics Air Hub",
+      "type": "entry",
+      "severity": "info",
+      "timestamp": 1793722543302,
+      "latitude": 41.9745,
+      "longitude": -87.9075,
+      "speed": 98.4,
+      "acknowledged": true,
+      "id": "alt-1793722543303-d7dw"
+    },
+    {
+      "id": "alt-101",
+      "vehicleId": "VH-1012",
+      "geofenceId": "geo-ohare-hub",
+      "geofenceName": "O'Hare Logistics Air Hub",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793721727685,
+      "latitude": 41.9812,
+      "longitude": -87.915,
+      "speed": 84.2,
+      "acknowledged": false
+    },
+    {
+      "id": "alt-102",
+      "vehicleId": "VH-1027",
+      "geofenceId": "geo-central-freight",
+      "geofenceName": "Midwest Central Freight Depot",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793721307685,
+      "latitude": 41.821,
+      "longitude": -87.605,
+      "speed": 76.5,
+      "acknowledged": false
+    },
+    {
+      "id": "alt-103",
+      "vehicleId": "VH-1044",
+      "geofenceId": "geo-central-freight",
+      "geofenceName": "Midwest Central Freight Depot",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793720647685,
+      "latitude": 41.915,
+      "longitude": -87.62,
+      "speed": 91,
+      "acknowledged": true
+    },
+    {
+      "id": "alt-104",
+      "vehicleId": "VH-1058",
+      "geofenceId": "geo-south-marine",
+      "geofenceName": "South Shore Marine Port Gate",
+      "type": "breach",
+      "severity": "critical",
+      "timestamp": 1793719867685,
+      "latitude": 41.75,
+      "longitude": -87.54,
+      "speed": 78,
+      "acknowledged": true
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-demo-01",
+      "name": "Sarah Jenkins",
+      "email": "s.jenkins@fleetdash.io",
+      "role": "fleet_manager",
+      "department": "Real-Time Dispatch Operations",
+      "passwordHash": "$2b$10$sRCqBHYzUCzxkBtt69iJxekUmi29gVrHrE5grbyM9OPCkiLDDsrtO",
+      "createdAt": 1791128683952,
+      "updatedAt": 1793720683952
+    },
+    {
+      "id": "usr-admin-01",
+      "name": "Fleet Administrator",
+      "email": "admin@fleetdash.io",
+      "role": "admin",
+      "department": "Fleet Infrastructure & Systems",
+      "passwordHash": "$2b$10$sRCqBHYzUCzxkBtt69iJxeNrmchxb29Mi9PVeWWPGlCrgzZBmSsni",
+      "createdAt": 1788536683952,
+      "updatedAt": 1793720683952
+    },
+    {
+      "id": "usr-dispatch-01",
+      "name": "Marcus Dispatcher",
+      "email": "dispatcher@fleetdash.io",
+      "role": "viewer",
+      "department": "Ground Operations Desk",
+      "passwordHash": "$2b$10$sRCqBHYzUCzxkBtt69iJxePcKBqDStulFsA9YdSxlkw5p/K2JK.nG",
+      "createdAt": 1792424683952,
+      "updatedAt": 1793720683952
+    },
+    {
+      "id": "usr-1793722543227-843v",
+      "name": "Verification User",
+      "email": "verify-1793722543115@fleetdash.io",
+      "role": "fleet_manager",
+      "department": "Operations",
+      "passwordHash": "$2b$10$TzhEHDhnHZzTWRdHqAUnZenCbusOWEADUQLiGyfdjd7zBo2L.xihe",
+      "createdAt": 1793722543227,
+      "updatedAt": 1793722543227
+    },
+    {
+      "id": "usr-1793722739278-xygk",
+      "name": "Verification User",
+      "email": "verify-1793722739162@fleetdash.io",
+      "role": "fleet_manager",
+      "department": "Operations",
+      "passwordHash": "$2b$10$v01WHPZTSRXJp0g7R5CBuelSPHC8FfUdQ2mDTqpI293c8L1p8c34i",
+      "createdAt": 1793722739278,
+      "updatedAt": 1793722739278
+    }
+  ],
+  "history": {
+    "VH-1001": [
+      {
+        "timestamp": 1793722739356,
+        "time": "9:48:59 pm",
+        "speed": 98.4,
+        "latitude": 41.9745,
+        "longitude": -87.9075,
+        "heading": 140,
+        "geofenceStatus": "breached"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793722543302,
+        "time": "9:45:43 pm",
+        "speed": 98.4,
+        "latitude": 41.9745,
+        "longitude": -87.9075,
+        "heading": 140,
+        "geofenceStatus": "breached"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316558,
+        "longitude": 78.535922,
+        "heading": 321,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316509,
+        "longitude": 78.535958,
+        "heading": 325,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316458,
+        "longitude": 78.535991,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316405,
+        "longitude": 78.536021,
+        "heading": 332,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316354,
+        "longitude": 78.536054,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316301,
+        "longitude": 78.536085,
+        "heading": 331,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316248,
+        "longitude": 78.536115,
+        "heading": 332,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316193,
+        "longitude": 78.53614,
+        "heading": 337,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.31614,
+        "longitude": 78.53617,
+        "heading": 332,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 48,
+        "latitude": 17.316087,
+        "longitude": 78.536201,
+        "heading": 331,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 48,
+        "latitude": 17.316034,
+        "longitude": 78.536232,
+        "heading": 331,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.31598,
+        "longitude": 78.536265,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315928,
+        "longitude": 78.536302,
+        "heading": 326,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315874,
+        "longitude": 78.536335,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315823,
+        "longitude": 78.536373,
+        "heading": 325,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.31577,
+        "longitude": 78.536408,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315717,
+        "longitude": 78.536443,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315661,
+        "longitude": 78.536473,
+        "heading": 333,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315607,
+        "longitude": 78.536506,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 50,
+        "latitude": 17.315553,
+        "longitude": 78.536539,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721663027,
+        "time": "9:31:03 pm",
+        "speed": 95,
+        "latitude": 41.975,
+        "longitude": -87.908,
+        "heading": 180,
+        "geofenceStatus": "breached"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1704067200000,
+        "time": "5:30:00 am",
+        "speed": 68.4,
+        "latitude": 17.385045,
+        "longitude": 78.486671,
+        "heading": 182.5,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "V1": [
+      {
+        "timestamp": 1793722643165,
+        "time": "9:47:23 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793722440989,
+        "time": "9:44:00 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721969923,
+        "time": "9:36:09 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793720812141,
+        "time": "9:16:52 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793720769062,
+        "time": "9:16:09 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793720685350,
+        "time": "9:14:45 pm",
+        "speed": 40,
+        "latitude": 17.385,
+        "longitude": 78.486,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1002": [
+      {
+        "timestamp": 1793722739409,
+        "time": "9:48:59 pm",
+        "speed": 45,
+        "latitude": 41.88,
+        "longitude": -87.63,
+        "heading": 90,
+        "geofenceStatus": "inside"
+      },
+      {
+        "timestamp": 1793722543356,
+        "time": "9:45:43 pm",
+        "speed": 45,
+        "latitude": 41.88,
+        "longitude": -87.63,
+        "heading": 90,
+        "geofenceStatus": "inside"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417836,
+        "longitude": 78.511634,
+        "heading": 317,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417805,
+        "longitude": 78.511665,
+        "heading": 316,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417774,
+        "longitude": 78.511696,
+        "heading": 316,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417742,
+        "longitude": 78.511726,
+        "heading": 318,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417708,
+        "longitude": 78.511753,
+        "heading": 323,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.417673,
+        "longitude": 78.511778,
+        "heading": 326,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 39,
+        "latitude": 17.417633,
+        "longitude": 78.511807,
+        "heading": 325,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 39,
+        "latitude": 17.417591,
+        "longitude": 78.511833,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 37,
+        "latitude": 17.417552,
+        "longitude": 78.511859,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 37,
+        "latitude": 17.417513,
+        "longitude": 78.511885,
+        "heading": 327,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 37,
+        "latitude": 17.417472,
+        "longitude": 78.511908,
+        "heading": 332,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 37,
+        "latitude": 17.417432,
+        "longitude": 78.511932,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 37,
+        "latitude": 17.417393,
+        "longitude": 78.511958,
+        "heading": 327,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 37,
+        "latitude": 17.417357,
+        "longitude": 78.511988,
+        "heading": 322,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 37,
+        "latitude": 17.417319,
+        "longitude": 78.512016,
+        "heading": 325,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.417287,
+        "longitude": 78.512041,
+        "heading": 323,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.417256,
+        "longitude": 78.512067,
+        "heading": 321,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.417224,
+        "longitude": 78.512092,
+        "heading": 324,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.417193,
+        "longitude": 78.512119,
+        "heading": 320,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.417162,
+        "longitude": 78.512146,
+        "heading": 320,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1003": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.416679,
+        "longitude": 78.519067,
+        "heading": 260,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.416693,
+        "longitude": 78.519189,
+        "heading": 263,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.416699,
+        "longitude": 78.519312,
+        "heading": 267,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.416705,
+        "longitude": 78.519435,
+        "heading": 267,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.416717,
+        "longitude": 78.519558,
+        "heading": 264,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 92,
+        "latitude": 17.416735,
+        "longitude": 78.519677,
+        "heading": 261,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 92,
+        "latitude": 17.416753,
+        "longitude": 78.519796,
+        "heading": 261,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 92,
+        "latitude": 17.416769,
+        "longitude": 78.519915,
+        "heading": 262,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 92,
+        "latitude": 17.416783,
+        "longitude": 78.520035,
+        "heading": 263,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 92,
+        "latitude": 17.416803,
+        "longitude": 78.520154,
+        "heading": 260,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 86,
+        "latitude": 17.416822,
+        "longitude": 78.520265,
+        "heading": 260,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 86,
+        "latitude": 17.416831,
+        "longitude": 78.520377,
+        "heading": 265,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416839,
+        "longitude": 78.520492,
+        "heading": 266,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416851,
+        "longitude": 78.520607,
+        "heading": 264,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416853,
+        "longitude": 78.520722,
+        "heading": 269,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416863,
+        "longitude": 78.520837,
+        "heading": 265,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416876,
+        "longitude": 78.520952,
+        "heading": 263,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416889,
+        "longitude": 78.521067,
+        "heading": 263,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 88,
+        "latitude": 17.416895,
+        "longitude": 78.521182,
+        "heading": 267,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.416895,
+        "longitude": 78.521296,
+        "heading": 270,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1004": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.443973,
+        "longitude": 78.544434,
+        "heading": 135,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444038,
+        "longitude": 78.54437,
+        "heading": 137,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444101,
+        "longitude": 78.544304,
+        "heading": 135,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444168,
+        "longitude": 78.544243,
+        "heading": 139,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444239,
+        "longitude": 78.544187,
+        "heading": 143,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444309,
+        "longitude": 78.54413,
+        "heading": 142,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444384,
+        "longitude": 78.544079,
+        "heading": 147,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444461,
+        "longitude": 78.544032,
+        "heading": 150,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 71,
+        "latitude": 17.444541,
+        "longitude": 78.543991,
+        "heading": 154,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 70,
+        "latitude": 17.444622,
+        "longitude": 78.543957,
+        "heading": 158,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.444703,
+        "longitude": 78.543921,
+        "heading": 157,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.444785,
+        "longitude": 78.54389,
+        "heading": 160,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.444868,
+        "longitude": 78.54386,
+        "heading": 161,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.444949,
+        "longitude": 78.543824,
+        "heading": 157,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.445029,
+        "longitude": 78.543787,
+        "heading": 156,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.44511,
+        "longitude": 78.543751,
+        "heading": 157,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.445192,
+        "longitude": 78.543718,
+        "heading": 159,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.445273,
+        "longitude": 78.543684,
+        "heading": 158,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.445354,
+        "longitude": 78.54365,
+        "heading": 158,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 70,
+        "latitude": 17.445436,
+        "longitude": 78.543619,
+        "heading": 160,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1005": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 64,
+        "latitude": 17.44176,
+        "longitude": 78.481901,
+        "heading": 119,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 64,
+        "latitude": 17.441804,
+        "longitude": 78.481831,
+        "heading": 123,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 64,
+        "latitude": 17.441846,
+        "longitude": 78.48176,
+        "heading": 122,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.441884,
+        "longitude": 78.481682,
+        "heading": 117,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.441925,
+        "longitude": 78.481605,
+        "heading": 119,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.441967,
+        "longitude": 78.481529,
+        "heading": 120,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.442006,
+        "longitude": 78.481451,
+        "heading": 118,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.442052,
+        "longitude": 78.481377,
+        "heading": 123,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.4421,
+        "longitude": 78.481305,
+        "heading": 125,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 67,
+        "latitude": 17.442147,
+        "longitude": 78.481232,
+        "heading": 124,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.4422,
+        "longitude": 78.481164,
+        "heading": 129,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.44225,
+        "longitude": 78.481094,
+        "heading": 127,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442304,
+        "longitude": 78.481027,
+        "heading": 130,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.44236,
+        "longitude": 78.480962,
+        "heading": 132,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442414,
+        "longitude": 78.480895,
+        "heading": 130,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442466,
+        "longitude": 78.480826,
+        "heading": 128,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442515,
+        "longitude": 78.480755,
+        "heading": 126,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442569,
+        "longitude": 78.480688,
+        "heading": 130,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 67,
+        "latitude": 17.442618,
+        "longitude": 78.480617,
+        "heading": 126,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 71,
+        "latitude": 17.442673,
+        "longitude": 78.480544,
+        "heading": 128,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1006": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.344934,
+        "longitude": 78.536106,
+        "heading": 169,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.344976,
+        "longitude": 78.536101,
+        "heading": 174,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.345018,
+        "longitude": 78.536096,
+        "heading": 174,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.34506,
+        "longitude": 78.536089,
+        "heading": 171,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.345102,
+        "longitude": 78.536085,
+        "heading": 175,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.345144,
+        "longitude": 78.536078,
+        "heading": 171,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.345186,
+        "longitude": 78.536075,
+        "heading": 176,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.345222,
+        "longitude": 78.53607,
+        "heading": 173,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.345258,
+        "longitude": 78.536067,
+        "heading": 176,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 35,
+        "latitude": 17.345301,
+        "longitude": 78.53606,
+        "heading": 171,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345344,
+        "longitude": 78.536054,
+        "heading": 173,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345387,
+        "longitude": 78.536044,
+        "heading": 168,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.34543,
+        "longitude": 78.536038,
+        "heading": 172,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345473,
+        "longitude": 78.536032,
+        "heading": 173,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345517,
+        "longitude": 78.53603,
+        "heading": 178,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345561,
+        "longitude": 78.536026,
+        "heading": 175,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345604,
+        "longitude": 78.536019,
+        "heading": 171,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345648,
+        "longitude": 78.536014,
+        "heading": 174,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345692,
+        "longitude": 78.536012,
+        "heading": 177,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 35,
+        "latitude": 17.345736,
+        "longitude": 78.536007,
+        "heading": 174,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1007": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.433513,
+        "longitude": 78.536884,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.433623,
+        "longitude": 78.536882,
+        "heading": 179,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.433733,
+        "longitude": 78.536886,
+        "heading": 182,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.433843,
+        "longitude": 78.536886,
+        "heading": 180,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.433953,
+        "longitude": 78.536894,
+        "heading": 184,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.434063,
+        "longitude": 78.536906,
+        "heading": 186,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 88,
+        "latitude": 17.434171,
+        "longitude": 78.536926,
+        "heading": 190,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.434288,
+        "longitude": 78.536939,
+        "heading": 186,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.434404,
+        "longitude": 78.536956,
+        "heading": 188,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 94,
+        "latitude": 17.434519,
+        "longitude": 78.53698,
+        "heading": 191,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 94,
+        "latitude": 17.434635,
+        "longitude": 78.536997,
+        "heading": 188,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 94,
+        "latitude": 17.434752,
+        "longitude": 78.53701,
+        "heading": 186,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 94,
+        "latitude": 17.434869,
+        "longitude": 78.537025,
+        "heading": 187,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 94,
+        "latitude": 17.434986,
+        "longitude": 78.537036,
+        "heading": 185,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 94,
+        "latitude": 17.435104,
+        "longitude": 78.537038,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.435212,
+        "longitude": 78.537048,
+        "heading": 185,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.435321,
+        "longitude": 78.537054,
+        "heading": 183,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.43543,
+        "longitude": 78.537052,
+        "heading": 179,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.435539,
+        "longitude": 78.537058,
+        "heading": 183,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 83,
+        "latitude": 17.435642,
+        "longitude": 78.537071,
+        "heading": 187,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1008": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442637,
+        "longitude": 78.554984,
+        "heading": 240,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442682,
+        "longitude": 78.555086,
+        "heading": 245,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442724,
+        "longitude": 78.55519,
+        "heading": 247,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442763,
+        "longitude": 78.555295,
+        "heading": 249,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442805,
+        "longitude": 78.555399,
+        "heading": 247,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 86,
+        "latitude": 17.442849,
+        "longitude": 78.555502,
+        "heading": 246,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 87,
+        "latitude": 17.442897,
+        "longitude": 78.555605,
+        "heading": 244,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 87,
+        "latitude": 17.442948,
+        "longitude": 78.555706,
+        "heading": 242,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 87,
+        "latitude": 17.442992,
+        "longitude": 78.55581,
+        "heading": 246,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 87,
+        "latitude": 17.443033,
+        "longitude": 78.555916,
+        "heading": 248,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443065,
+        "longitude": 78.556025,
+        "heading": 253,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443097,
+        "longitude": 78.556134,
+        "heading": 253,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443129,
+        "longitude": 78.556243,
+        "heading": 253,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443152,
+        "longitude": 78.556355,
+        "heading": 258,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443178,
+        "longitude": 78.556466,
+        "heading": 256,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.44321,
+        "longitude": 78.556575,
+        "heading": 253,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443244,
+        "longitude": 78.556684,
+        "heading": 252,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443281,
+        "longitude": 78.556791,
+        "heading": 250,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 87,
+        "latitude": 17.443311,
+        "longitude": 78.556901,
+        "heading": 254,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 86,
+        "latitude": 17.443333,
+        "longitude": 78.557011,
+        "heading": 258,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1009": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326992,
+        "longitude": 78.510624,
+        "heading": 331,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326896,
+        "longitude": 78.510687,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326798,
+        "longitude": 78.510746,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.3267,
+        "longitude": 78.510805,
+        "heading": 330,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326604,
+        "longitude": 78.510868,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326508,
+        "longitude": 78.510931,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326411,
+        "longitude": 78.510992,
+        "heading": 329,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.32632,
+        "longitude": 78.511061,
+        "heading": 324,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326226,
+        "longitude": 78.511125,
+        "heading": 327,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 90,
+        "latitude": 17.326135,
+        "longitude": 78.511194,
+        "heading": 324,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 90,
+        "latitude": 17.326046,
+        "longitude": 78.511267,
+        "heading": 322,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 90,
+        "latitude": 17.325952,
+        "longitude": 78.511331,
+        "heading": 327,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 90,
+        "latitude": 17.325858,
+        "longitude": 78.511395,
+        "heading": 327,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325771,
+        "longitude": 78.511459,
+        "heading": 325,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325686,
+        "longitude": 78.511526,
+        "heading": 323,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325606,
+        "longitude": 78.511599,
+        "heading": 319,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.32552,
+        "longitude": 78.511664,
+        "heading": 324,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325437,
+        "longitude": 78.511734,
+        "heading": 321,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325356,
+        "longitude": 78.511806,
+        "heading": 320,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 85,
+        "latitude": 17.325276,
+        "longitude": 78.511879,
+        "heading": 319,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1010": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458516,
+        "longitude": 78.47575,
+        "heading": 88,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458517,
+        "longitude": 78.47568,
+        "heading": 91,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458518,
+        "longitude": 78.47561,
+        "heading": 91,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458525,
+        "longitude": 78.475541,
+        "heading": 96,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458528,
+        "longitude": 78.475472,
+        "heading": 93,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458528,
+        "longitude": 78.475402,
+        "heading": 90,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458528,
+        "longitude": 78.475332,
+        "heading": 90,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458522,
+        "longitude": 78.475263,
+        "heading": 85,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458516,
+        "longitude": 78.475194,
+        "heading": 85,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 53,
+        "latitude": 17.458508,
+        "longitude": 78.475125,
+        "heading": 83,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458502,
+        "longitude": 78.475056,
+        "heading": 85,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458493,
+        "longitude": 78.474987,
+        "heading": 82,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.45848,
+        "longitude": 78.474919,
+        "heading": 79,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.45847,
+        "longitude": 78.47485,
+        "heading": 81,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458458,
+        "longitude": 78.474782,
+        "heading": 80,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458448,
+        "longitude": 78.474713,
+        "heading": 81,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458433,
+        "longitude": 78.474645,
+        "heading": 77,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458421,
+        "longitude": 78.474577,
+        "heading": 80,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458406,
+        "longitude": 78.474509,
+        "heading": 77,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.458396,
+        "longitude": 78.47444,
+        "heading": 81,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1011": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421043,
+        "longitude": 78.472075,
+        "heading": 192,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421081,
+        "longitude": 78.472087,
+        "heading": 196,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.42112,
+        "longitude": 78.472098,
+        "heading": 195,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421159,
+        "longitude": 78.472107,
+        "heading": 193,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421198,
+        "longitude": 78.472117,
+        "heading": 194,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421237,
+        "longitude": 78.472125,
+        "heading": 191,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421277,
+        "longitude": 78.472129,
+        "heading": 186,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421317,
+        "longitude": 78.472132,
+        "heading": 184,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421357,
+        "longitude": 78.472133,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 32,
+        "latitude": 17.421397,
+        "longitude": 78.472134,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.421437,
+        "longitude": 78.472137,
+        "heading": 184,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.421477,
+        "longitude": 78.472138,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 32,
+        "latitude": 17.421517,
+        "longitude": 78.472141,
+        "heading": 184,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421559,
+        "longitude": 78.472143,
+        "heading": 183,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421602,
+        "longitude": 78.472145,
+        "heading": 182,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421645,
+        "longitude": 78.472144,
+        "heading": 179,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421688,
+        "longitude": 78.472145,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421731,
+        "longitude": 78.472144,
+        "heading": 179,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421774,
+        "longitude": 78.472145,
+        "heading": 181,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.421816,
+        "longitude": 78.472148,
+        "heading": 184,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1012": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 49,
+        "latitude": 17.436701,
+        "longitude": 78.429302,
+        "heading": 63,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 49,
+        "latitude": 17.436676,
+        "longitude": 78.429243,
+        "heading": 66,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436647,
+        "longitude": 78.429185,
+        "heading": 62,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436616,
+        "longitude": 78.429128,
+        "heading": 60,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436588,
+        "longitude": 78.42907,
+        "heading": 63,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436558,
+        "longitude": 78.429013,
+        "heading": 61,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436531,
+        "longitude": 78.428954,
+        "heading": 64,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 50,
+        "latitude": 17.436505,
+        "longitude": 78.428895,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 49,
+        "latitude": 17.436479,
+        "longitude": 78.428837,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 49,
+        "latitude": 17.436452,
+        "longitude": 78.428779,
+        "heading": 64,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.43643,
+        "longitude": 78.428719,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436411,
+        "longitude": 78.428658,
+        "heading": 72,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436389,
+        "longitude": 78.428598,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436368,
+        "longitude": 78.428538,
+        "heading": 70,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436345,
+        "longitude": 78.428478,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436318,
+        "longitude": 78.42842,
+        "heading": 64,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436295,
+        "longitude": 78.42836,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.436274,
+        "longitude": 78.4283,
+        "heading": 70,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 54,
+        "latitude": 17.436249,
+        "longitude": 78.428234,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 54,
+        "latitude": 17.436225,
+        "longitude": 78.428168,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1013": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 82,
+        "latitude": 17.37676,
+        "longitude": 78.465914,
+        "heading": 71,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 82,
+        "latitude": 17.376728,
+        "longitude": 78.465812,
+        "heading": 72,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 82,
+        "latitude": 17.376691,
+        "longitude": 78.465712,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 82,
+        "latitude": 17.376654,
+        "longitude": 78.465612,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 82,
+        "latitude": 17.376611,
+        "longitude": 78.465515,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 78,
+        "latitude": 17.376571,
+        "longitude": 78.465422,
+        "heading": 66,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 78,
+        "latitude": 17.376528,
+        "longitude": 78.46533,
+        "heading": 64,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 78,
+        "latitude": 17.376484,
+        "longitude": 78.465239,
+        "heading": 63,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 78,
+        "latitude": 17.376447,
+        "longitude": 78.465144,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 78,
+        "latitude": 17.37641,
+        "longitude": 78.465049,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376372,
+        "longitude": 78.464955,
+        "heading": 67,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376334,
+        "longitude": 78.464861,
+        "heading": 67,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376297,
+        "longitude": 78.464766,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.37626,
+        "longitude": 78.464671,
+        "heading": 68,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376219,
+        "longitude": 78.464578,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376176,
+        "longitude": 78.464486,
+        "heading": 64,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376138,
+        "longitude": 78.464392,
+        "heading": 67,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376098,
+        "longitude": 78.464299,
+        "heading": 66,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376063,
+        "longitude": 78.464204,
+        "heading": 69,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 78,
+        "latitude": 17.376033,
+        "longitude": 78.464107,
+        "heading": 72,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1014": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395686,
+        "longitude": 78.49139,
+        "heading": 342,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395674,
+        "longitude": 78.491395,
+        "heading": 339,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395662,
+        "longitude": 78.491399,
+        "heading": 340,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395651,
+        "longitude": 78.491404,
+        "heading": 336,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395639,
+        "longitude": 78.491408,
+        "heading": 340,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395627,
+        "longitude": 78.491413,
+        "heading": 338,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395615,
+        "longitude": 78.491417,
+        "heading": 342,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395603,
+        "longitude": 78.491421,
+        "heading": 340,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395591,
+        "longitude": 78.491426,
+        "heading": 338,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 10,
+        "latitude": 17.395579,
+        "longitude": 78.49143,
+        "heading": 340,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 10,
+        "latitude": 17.395567,
+        "longitude": 78.491435,
+        "heading": 339,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 10,
+        "latitude": 17.395556,
+        "longitude": 78.491441,
+        "heading": 334,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 10,
+        "latitude": 17.395545,
+        "longitude": 78.491447,
+        "heading": 331,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 10,
+        "latitude": 17.395534,
+        "longitude": 78.491454,
+        "heading": 329,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 14,
+        "latitude": 17.395519,
+        "longitude": 78.491463,
+        "heading": 329,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 13,
+        "latitude": 17.395504,
+        "longitude": 78.49147,
+        "heading": 334,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 13,
+        "latitude": 17.395489,
+        "longitude": 78.491477,
+        "heading": 334,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 13,
+        "latitude": 17.395474,
+        "longitude": 78.491484,
+        "heading": 335,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 20,
+        "latitude": 17.395452,
+        "longitude": 78.491496,
+        "heading": 333,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732876,
+        "time": "9:32:12 pm",
+        "speed": 20,
+        "latitude": 17.395431,
+        "longitude": 78.49151,
+        "heading": 328,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1015": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411719,
+        "longitude": 78.514709,
+        "heading": 25,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411662,
+        "longitude": 78.514677,
+        "heading": 28,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411605,
+        "longitude": 78.514645,
+        "heading": 28,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411547,
+        "longitude": 78.514615,
+        "heading": 26,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411489,
+        "longitude": 78.514584,
+        "heading": 27,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.41143,
+        "longitude": 78.514555,
+        "heading": 25,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411373,
+        "longitude": 78.514522,
+        "heading": 29,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411318,
+        "longitude": 78.514486,
+        "heading": 32,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411262,
+        "longitude": 78.514451,
+        "heading": 31,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 52,
+        "latitude": 17.411207,
+        "longitude": 78.514415,
+        "heading": 32,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.411153,
+        "longitude": 78.514377,
+        "heading": 34,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.411097,
+        "longitude": 78.514343,
+        "heading": 30,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.41104,
+        "longitude": 78.514311,
+        "heading": 28,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410983,
+        "longitude": 78.514279,
+        "heading": 28,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410925,
+        "longitude": 78.514249,
+        "heading": 26,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410865,
+        "longitude": 78.514222,
+        "heading": 23,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410804,
+        "longitude": 78.514199,
+        "heading": 20,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410745,
+        "longitude": 78.514171,
+        "heading": 24,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410685,
+        "longitude": 78.514145,
+        "heading": 22,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 52,
+        "latitude": 17.410623,
+        "longitude": 78.514125,
+        "heading": 17,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1016": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328747,
+        "longitude": 78.520994,
+        "heading": 6,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328691,
+        "longitude": 78.520987,
+        "heading": 7,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328635,
+        "longitude": 78.520982,
+        "heading": 5,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328579,
+        "longitude": 78.520978,
+        "heading": 4,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328523,
+        "longitude": 78.520978,
+        "heading": 0,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328467,
+        "longitude": 78.520974,
+        "heading": 4,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328411,
+        "longitude": 78.520967,
+        "heading": 7,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328356,
+        "longitude": 78.520956,
+        "heading": 11,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328301,
+        "longitude": 78.520945,
+        "heading": 11,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 45,
+        "latitude": 17.328245,
+        "longitude": 78.520937,
+        "heading": 8,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 44,
+        "latitude": 17.32819,
+        "longitude": 78.520929,
+        "heading": 8,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 44,
+        "latitude": 17.328136,
+        "longitude": 78.520916,
+        "heading": 13,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 44,
+        "latitude": 17.328083,
+        "longitude": 78.520901,
+        "heading": 15,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 44,
+        "latitude": 17.328031,
+        "longitude": 78.520883,
+        "heading": 18,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.327973,
+        "longitude": 78.520863,
+        "heading": 18,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.327915,
+        "longitude": 78.520841,
+        "heading": 20,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 49,
+        "latitude": 17.327858,
+        "longitude": 78.520817,
+        "heading": 22,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.327796,
+        "longitude": 78.520792,
+        "heading": 21,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.327732,
+        "longitude": 78.520773,
+        "heading": 16,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 53,
+        "latitude": 17.327668,
+        "longitude": 78.520755,
+        "heading": 15,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1017": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382513,
+        "longitude": 78.454084,
+        "heading": 63,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.3825,
+        "longitude": 78.454059,
+        "heading": 62,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382486,
+        "longitude": 78.454034,
+        "heading": 60,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382473,
+        "longitude": 78.454009,
+        "heading": 62,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.38246,
+        "longitude": 78.453984,
+        "heading": 61,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382448,
+        "longitude": 78.453958,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382437,
+        "longitude": 78.453931,
+        "heading": 67,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382428,
+        "longitude": 78.453904,
+        "heading": 70,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382417,
+        "longitude": 78.453877,
+        "heading": 67,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 22,
+        "latitude": 17.382404,
+        "longitude": 78.453852,
+        "heading": 62,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 22,
+        "latitude": 17.38239,
+        "longitude": 78.453827,
+        "heading": 59,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.382372,
+        "longitude": 78.453802,
+        "heading": 54,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.382355,
+        "longitude": 78.453776,
+        "heading": 56,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.38234,
+        "longitude": 78.453748,
+        "heading": 61,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.382326,
+        "longitude": 78.45372,
+        "heading": 62,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.382312,
+        "longitude": 78.453692,
+        "heading": 63,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 24,
+        "latitude": 17.382297,
+        "longitude": 78.453665,
+        "heading": 60,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 31,
+        "latitude": 17.382278,
+        "longitude": 78.453629,
+        "heading": 61,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 31,
+        "latitude": 17.382262,
+        "longitude": 78.453592,
+        "heading": 65,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 31,
+        "latitude": 17.382243,
+        "longitude": 78.453557,
+        "heading": 60,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1018": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 30,
+        "latitude": 17.396625,
+        "longitude": 78.421175,
+        "heading": 114,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 30,
+        "latitude": 17.396638,
+        "longitude": 78.421138,
+        "heading": 110,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 30,
+        "latitude": 17.396653,
+        "longitude": 78.421102,
+        "heading": 113,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 30,
+        "latitude": 17.396665,
+        "longitude": 78.421065,
+        "heading": 108,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 30,
+        "latitude": 17.396675,
+        "longitude": 78.421027,
+        "heading": 106,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.396683,
+        "longitude": 78.420983,
+        "heading": 101,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.39669,
+        "longitude": 78.420939,
+        "heading": 99,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.3967,
+        "longitude": 78.420896,
+        "heading": 103,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.39671,
+        "longitude": 78.420853,
+        "heading": 103,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 34,
+        "latitude": 17.396717,
+        "longitude": 78.420809,
+        "heading": 100,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.396727,
+        "longitude": 78.420766,
+        "heading": 103,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.396735,
+        "longitude": 78.420722,
+        "heading": 101,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.396742,
+        "longitude": 78.420678,
+        "heading": 100,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 34,
+        "latitude": 17.396748,
+        "longitude": 78.420634,
+        "heading": 98,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.396757,
+        "longitude": 78.420592,
+        "heading": 102,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.396763,
+        "longitude": 78.420549,
+        "heading": 98,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.396769,
+        "longitude": 78.420506,
+        "heading": 99,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.396778,
+        "longitude": 78.420464,
+        "heading": 102,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.396784,
+        "longitude": 78.420421,
+        "heading": 98,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 33,
+        "latitude": 17.39679,
+        "longitude": 78.420378,
+        "heading": 99,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1019": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 29,
+        "latitude": 17.400973,
+        "longitude": 78.508442,
+        "heading": 51,
+        "geofenceStatus": "clear"
+      }
+    ],
+    "VH-1020": [
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 62,
+        "latitude": 17.323253,
+        "longitude": 78.434557,
+        "heading": 143,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323309,
+        "longitude": 78.434513,
+        "heading": 143,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323361,
+        "longitude": 78.434464,
+        "heading": 138,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323411,
+        "longitude": 78.434412,
+        "heading": 135,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323463,
+        "longitude": 78.434363,
+        "heading": 138,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323511,
+        "longitude": 78.434309,
+        "heading": 133,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323556,
+        "longitude": 78.434253,
+        "heading": 130,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323602,
+        "longitude": 78.434198,
+        "heading": 131,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323651,
+        "longitude": 78.434145,
+        "heading": 134,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721733883,
+        "time": "9:32:13 pm",
+        "speed": 56,
+        "latitude": 17.323695,
+        "longitude": 78.434088,
+        "heading": 129,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.323741,
+        "longitude": 78.434033,
+        "heading": 131,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.323791,
+        "longitude": 78.433981,
+        "heading": 135,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.323841,
+        "longitude": 78.43393,
+        "heading": 136,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.323895,
+        "longitude": 78.433883,
+        "heading": 140,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.323952,
+        "longitude": 78.43384,
+        "heading": 144,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732878,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.324006,
+        "longitude": 78.433793,
+        "heading": 140,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.324057,
+        "longitude": 78.433743,
+        "heading": 137,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.324111,
+        "longitude": 78.433697,
+        "heading": 141,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.324162,
+        "longitude": 78.433647,
+        "heading": 137,
+        "geofenceStatus": "clear"
+      },
+      {
+        "timestamp": 1793721732877,
+        "time": "9:32:12 pm",
+        "speed": 56,
+        "latitude": 17.324215,
+        "longitude": 78.433599,
+        "heading": 139,
+        "geofenceStatus": "clear"
+      }
+    ]
+  }
+}

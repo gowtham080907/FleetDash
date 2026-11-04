@@ -147,6 +147,9 @@ export const CanvasFleetMap: React.FC<CanvasFleetMapProps> = ({
         setSelectedVehicle(v);
         setIsFollowing(true);
         if (engineRef.current) engineRef.current.setSelectedVehicleId(v.vehicleId);
+        if (mapInstanceRef.current) {
+          mapInstanceRef.current.setView([v.latitude, v.longitude], 14, { animate: true });
+        }
       }
     }
   }, [focusedVehicleId]);
