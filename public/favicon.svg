@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="brightGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#38BDF8" flood-opacity="0.8" />
+    </filter>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect width="32" height="32" rx="8" fill="url(#brightGrad)" />
+  <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="#BAE6FD" stroke-opacity="0.6" stroke-width="1" />
+  
+  <!-- Outer signal wave -->
+  <path d="M7 8a13 13 0 0 1 18 0" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.9" />
+  <!-- Inner signal wave -->
+  <path d="M10.5 11.5a8 8 0 0 1 11 0" stroke="#E0F2FE" stroke-width="2.2" stroke-linecap="round" />
+  
+  <!-- Forward supersonic telemetry chevron -->
+  <path d="M16 14L21.5 25L16 22.5L10.5 25L16 14Z" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.2" stroke-linejoin="round" filter="url(#glow)" />
+  
+  <!-- Core pulsing telemetry node -->
+  <circle cx="16" cy="14.5" r="2" fill="#38BDF8" />
+  <circle cx="16" cy="14.5" r="1.2" fill="#FFFFFF" />
+</svg>

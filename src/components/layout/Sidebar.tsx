@@ -12,7 +12,6 @@ import {
   LogOut,
   ChevronLeft,
   ChevronRight,
-  Radio,
 } from 'lucide-react';
 import { useAuthStore } from '@/stores/authStore';
 import { Logo } from '@/components/ui/Logo';

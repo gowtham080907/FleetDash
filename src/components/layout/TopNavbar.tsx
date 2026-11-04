@@ -14,6 +14,7 @@ import {
 import { useThemeStore } from '@/stores/themeStore';
 import { useAuthStore } from '@/stores/authStore';
 import { StatusBadge } from '@/components/ui/StatusBadge';
+import { Logo } from '@/components/ui/Logo';
 
 import { socketService, SocketConnectionStatus } from '@/services/socket/socketService';
 
@@ -69,6 +70,10 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
           <Menu className="h-5 w-5" />
           <span className="sr-only">Open mobile navigation</span>
         </button>
+
+        <div className="lg:hidden flex items-center">
+          <Logo size="sm" showText={false} />
+        </div>
 
         <div className="flex flex-col">
           <h1 className="text-sm sm:text-base font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">

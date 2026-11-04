@@ -221,19 +221,7 @@ export const LoginPage: React.FC = () => {
       <header className="sticky top-0 z-50 w-full backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Brand Logo */}
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-electric text-white shadow-lg shadow-blue-500/25 ring-1 ring-blue-400/30">
-              <Radio className="h-5 w-5 animate-pulse" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-base font-extrabold tracking-tight text-white flex items-center gap-1">
-                FLEET<span className="text-brand-electric">DASH</span>
-              </span>
-              <span className="text-[10px] text-slate-400 font-mono tracking-wider uppercase">
-                Enterprise Telemetry
-              </span>
-            </div>
-          </div>
+          <Logo size="lg" subtitleText="Enterprise Telemetry" />
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
@@ -970,17 +958,7 @@ export const LoginPage: React.FC = () => {
       {/* 7. ENTERPRISE FOOTER */}
       <footer className="border-t border-slate-800 bg-slate-950 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-electric text-white">
-              <Radio className="h-4 w-4" />
-            </div>
-            <span className="text-sm font-bold text-white tracking-tight">
-              FLEET<span className="text-brand-electric">DASH</span>
-            </span>
-            <span className="text-xs text-slate-500 pl-2 border-l border-slate-800">
-              Enterprise Fleet Telemetry Platform
-            </span>
-          </div>
+          <Logo size="md" subtitleText="Enterprise Telemetry Platform" />
 
           <div className="flex items-center gap-6 text-xs text-slate-500">
             <a href="#features" className="hover:text-slate-300 transition-colors">Features</a>
