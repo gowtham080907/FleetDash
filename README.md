@@ -7,76 +7,7 @@
 ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite)
 ![Vitest](https://img.shields.io/badge/Vitest-28%20Passed-4CAF50?style=for-the-badge&logo=vitest)
 
-> **MERN Stack Development Internship Project — Infotact Solutions**  
-> An enterprise-grade, high-performance fleet monitoring command center engineered to visualize 1,000 to 10,000+ moving vehicles simultaneously, ingest high-frequency telemetry streams at 60 FPS without React Virtual DOM bottlenecks, track geofence perimeter breaches, and provide comprehensive operational diagnostics.
-
----
-
-## 1. System Architecture & High-Performance Design
-
-Standard React applications store dynamic state in `useState` or Redux/Zustand. Under high-frequency telemetry loads (1,500 – 10,000 packets per second), updating React state forces continuous component tree reconciliation, causing massive garbage collection pressure and frame drops down to single digits.
-
-FleetDash solves this with a **Dual-Track Decoupled Architecture**:
-
-```
-+-------------------------------------------------------------------------------------------------+
-|                                 TELEMETRY INGESTION PIPELINE                                    |
-+-------------------------------------------------------------------------------------------------+
-|                                                                                                 |
-|   +-----------------------+           +-----------------------+                                 |
-|   |   Socket.IO Server    |           | Deterministic Engine  |                                 |
-|   |  (telemetry:batch)    |           |  (100 - 10,000 units) |                                 |
-|   +-----------+-----------+           +-----------+-----------+                                 |
-|               |                                   |                                             |
-|               +-----------------+-----------------+                                             |
-|                                 |                                                               |
-|                                 v                                                               |
-|                +---------------------------------+                                              |
-|                |    Transport & Boundary Check   |                                              |
-|                |  - Coordinate bounds [-90, 90]  |                                              |
-|                |  - 32-Byte Binary Decoder       |                                              |
-|                +----------------+----------------+                                              |
-|                                 |                                                               |
-|        +------------------------+------------------------+                                      |
-|        | (Raw High-Frequency Coords)                     | (Throttled 250ms Aggregates)         |
-|        v                                                 v                                      |
-|  +---------------------------+                 +---------------------+                          |
-|  | Non-Reactive Spatial Map  |                 | Zustand UI Store    |                          |
-|  |  `vehiclePositionStore`   |                 | (KPIs, Active/Idle, |                          |
-|  | (Zero Virtual DOM render) |                 |  Breach counts)     |                          |
-|  +-------------+-------------+                 +----------+----------+                          |
-|                |                                          |                                     |
-|                v                                          v                                     |
-|  +---------------------------+                 +---------------------+                          |
-|  |  HTML5 Canvas 60 FPS      |                 | React UI Components |                          |
-|  |  - Spatial Viewport Cull  |                 | - KPI Grid Cards    |                          |
-|  |  - Directional Chevrons   |                 | - Recharts Graphs   |                          |
-|  |  - Pulsating Breach Rings |                 | - Incident Logs     |                          |
-|  +---------------------------+                 +---------------------+                          |
-|                                                                                                 |
-+-------------------------------------------------------------------------------------------------+
-```
-
-### Key Engineering Innovations:
-1. **Zero-Allocation Spatial Cache:** Dynamic vehicle coordinates are buffered into a mutable `Map<string, VehicleTelemetry>` with pre-allocated Float64 arrays for coordinate transforms.
-2. **Viewport Culling (Bounding Box Filter):** Before rasterizing 10,000 markers, the engine filters coordinates against the Leaflet map's active pixel bounding box ($[x_{\min} - \text{pad}, y_{\min} - \text{pad}, x_{\max} + \text{pad}, y_{\max} + \text{pad}]$). Units outside the viewport are culled in $O(1)$ time, reducing rendering overhead by $75\% - 85\%$.
-3. **Hardware-Accelerated HTML5 Canvas Overlay:** Replaces thousands of heavy Leaflet DOM nodes (`divIcon`) with a single HTML5 `<canvas>` layer synced to Leaflet's zoom, pan, and transform events.
-4. **32-Byte Compact Binary Protocol:** Custom Little-Endian binary packet decoder for extreme bandwidth optimization ($6\times$ more compact than JSON).
-5. **Real-Time Performance Engine:** Built-in FPS, render frame time ($\text{ms}$), memory heap sampler, and automated 100 to 10,000 vehicle stress tester.
-
----
-
-## 2. Technology Stack
-
-| Layer | Technology | Purpose |
-|---|---|---|
-| **Core Framework** | React 18.3 + TypeScript 5.6 | Strict type-checked component architecture |
-| **Build & Dev Tool** | Vite 5.4 | Sub-second HMR and optimized Rollup production bundling |
-| **Styling & Theme** | Tailwind CSS 3.4 | Logistics command center palette (Deep Navy / Electric Blue / Dark Mode) |
-| **Routing** | React Router v6 | Code-split protected routes with Suspense fallback |
-| **Spatial State** | Custom Ref Map Store | Zero-allocation high-frequency coordinate buffer |
-| **UI State** | Zustand 5.0 | Low-frequency reactive state (Auth, Theme, Alerts, Modal) |
-| **Data Fetching** | TanStack React Query v5 | Cached REST operations and stale-while-revalidate |
+le-revalidate |
 | **Map Engine** | Leaflet 1.9 + React Leaflet 4.2 | GIS base map tiles (OpenStreetMap / CartoDB Dark Matter) |
 | **Graphics Engine** | HTML5 Canvas + requestAnimationFrame | High-throughput 60 FPS vehicle and breach rasterization |
 | **Data Analytics** | Recharts 2.15 | Dashboard telemetry throughput, speed, and alert charts |
