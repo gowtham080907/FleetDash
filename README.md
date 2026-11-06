@@ -1,31 +1,4 @@
 
-
-### Key Engineering Innovations:
-1. **Zero-Allocation Spatial Cache:** Dynamic vehicle coordinates are buffered into a mutable `Map<string, VehicleTelemetry>` with pre-allocated Float64 arrays for coordinate transforms.
-2. **Viewport Culling (Bounding Box Filter):** Before rasterizing 10,000 markers, the engine filters coordinates against the Leaflet map's active pixel bounding box ($[x_{\min} - \text{pad}, y_{\min} - \text{pad}, x_{\max} + \text{pad}, y_{\max} + \text{pad}]$). Units outside the viewport are culled in $O(1)$ time, reducing rendering overhead by $75\% - 85\%$.
-3. **Hardware-Accelerated HTML5 Canvas Overlay:** Replaces thousands of heavy Leaflet DOM nodes (`divIcon`) with a single HTML5 `<canvas>` layer synced to Leaflet's zoom, pan, and transform events.
-4. **32-Byte Compact Binary Protocol:** Custom Little-Endian binary packet decoder for extreme bandwidth optimization ($6\times$ more compact than JSON).
-5. **Real-Time Performance Engine:** Built-in FPS, render frame time ($\text{ms}$), memory heap sampler, and automated 100 to 10,000 vehicle stress tester.
-
----
-
-## 2. Technology Stack
-
-| Layer | Technology | Purpose |
-|---|---|---|
-| **Core Framework** | React 18.3 + TypeScript 5.6 | Strict type-checked component architecture |
-| **Build & Dev Tool** | Vite 5.4 | Sub-second HMR and optimized Rollup production bundling |
-| **Styling & Theme** | Tailwind CSS 3.4 | Logistics command center palette (Deep Navy / Electric Blue / Dark Mode) |
-| **Routing** | React Router v6 | Code-split protected routes with Suspense fallback |
-| **Spatial State** | Custom Ref Map Store | Zero-allocation high-frequency coordinate buffer |
-| **UI State** | Zustand 5.0 | Low-frequency reactive state (Auth, Theme, Alerts, Modal) |
-| **Data Fetching** | TanStack React Query v5 | Cached REST operations and stale-while-revalidate |
-| **Map Engine** | Leaflet 1.9 + React Leaflet 4.2 | GIS base map tiles (OpenStreetMap / CartoDB Dark Matter) |
-| **Graphics Engine** | HTML5 Canvas + requestAnimationFrame | High-throughput 60 FPS vehicle and breach rasterization |
-| **Data Analytics** | Recharts 2.15 | Dashboard telemetry throughput, speed, and alert charts |
-| **Validation** | Zod 3.23 + React Hook Form 7.53 | Strict schema validation for auth and forms |
-| **Unit Testing** | Vitest 2.1 + Testing Library | 28 automated test suites passing |
-
 ---
 
 ## 3. Application Directory & Routes
